@@ -1,0 +1,1920 @@
+[
+  {
+    "id": "date-001",
+    "template": "Plan and go on a solo dinner date: pick a restaurant, sit down, and stay through one full meal without scrolling your phone the whole time.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina",
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "solo",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "evening",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-002",
+    "template": "Invite [person] out for coffee or tea at a spot you have never been to and stay for at least 30 minutes.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-003",
+    "template": "Pick a movie theater and take yourself to see a film alone, buying yourself a snack like you would if you were on a date.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-004",
+    "template": "Choose a park or waterfront and go on a sunset walk with [person] or solo, staying out until the sun is fully down.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "evening",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "date-005",
+    "template": "Pick a dessert-only spot and go out just for dessert either solo or with [person]. No main course, just treats.",
+    "slots": [
+      "person"
+    ],
+    "size": "small",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "date-006",
+    "template": "Go out for ice cream, frozen yogurt, or a sweet snack and actually sit down to enjoy it instead of eating on the go.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "date-007",
+    "template": "Invite [person] to walk a full loop around a park or neighborhood with you and have phone-free conversation the whole time.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-008",
+    "template": "Choose a place with live music and go there for at least one full set, even if you go alone.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-009",
+    "template": "Take yourself or [person] to a bookstore and spend at least 20 minutes browsing in silence together before sharing what you each found.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "exploration",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "date-010",
+    "template": "Do a coffee shop hop: visit two different cafés in one evening and order something at both.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "evening",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-011",
+    "template": "Invite [person] to a casual drink (alcoholic or not) at a bar or lounge and sit at the bar instead of a table.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "date-012",
+    "template": "Have a solo movie night at home where you dress like you’re going out, make or order good food, and actually sit and watch start to finish.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "home_indoor",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-013",
+    "template": "Take [person] to a view spot like a rooftop, overlook, or bridge and stay long enough to talk for at least 20 minutes.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_nature",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "date-014",
+    "template": "Get dressed slightly nicer than usual and walk to a nearby bar, café, or lounge just to sit for one drink or snack by yourself.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "self_care",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-015",
+    "template": "Go on a thrift store date with [person]: each of you picks one silly or stylish item for the other to try on.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-016",
+    "template": "Do a solo picnic: bring food or takeout to a park, lay out a blanket, and eat there instead of at home.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "home_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "date-017",
+    "template": "Plan and go on a cheap date with [person] that costs under a budget you set, focusing on vibe not money.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-018",
+    "template": "Take yourself or [person] to a museum or gallery that stays open late and wander through slowly.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "exploration",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-019",
+    "template": "Go bowling, play pool, mini golf, or another casual game with [person] or solo against your own score.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-020",
+    "template": "Take a long evening walk with [person] or solo with the explicit intention of not checking your phone until you’re home.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "home_indoor",
+    "costLevel": "free",
+    "timeOfDay": "evening",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "date-021",
+    "template": "Go out for a late-night diner or fast-food run with [person] or solo, sit inside, and eat there instead of in the car.",
+    "slots": [
+      "person"
+    ],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "date-022",
+    "template": "Do a bookstore date with yourself: buy or pick a book, then go read it in a café for 30 minutes.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-023",
+    "template": "Take [person] to a neighborhood neither of you usually visit and explore one whole block together on foot.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "exploration",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "date-024",
+    "template": "Pick a theme for the night such as tacos, pizza, or dessert and hit two different spots that fit the theme.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-025",
+    "template": "Invite [person] over or meet up and cook a simple meal together instead of ordering delivery.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-026",
+    "template": "Take yourself on a public transport ride to a new stop, get off, find a café, and sit down for a drink.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "self_care",
+    "socialIntensity": "solo",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-027",
+    "template": "Plan a daytime date with [person] that isn’t just food: a walk, gallery, park, bookstore, or event plus a drink.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-028",
+    "template": "Take yourself or [person] to an arcade or gaming bar and load a small amount of credits, playing at least three games.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-029",
+    "template": "Dress in an outfit that makes you feel attractive and go sit at a bar, lounge, or café alone for one drink.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "self_care",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-030",
+    "template": "Walk or drive to a scenic spot at night and have a parked-car conversation or solo reflection with music playing quietly.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "exploration",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-031",
+    "template": "Take [person] to a place that meant something to you in the past and tell them why it matters.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "date-032",
+    "template": "Go to a touristy spot in your own city and do the cheesy date move of taking a photo there either solo or with [person].",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-033",
+    "template": "Have a coffee shop work date with yourself: bring a notebook or laptop, order a drink, and stay for at least an hour.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "solo",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-034",
+    "template": "Take [person] to get try-on outfits at a clothing store, giving each other one outfit to try and rating them for fun.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-035",
+    "template": "Go out specifically for appetizers or small plates with [person] or solo instead of ordering a full entrée.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "date-036",
+    "template": "Arrange a park hang with [person]: bring a blanket, snacks, and music for at least 45 minutes of chill time.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "creative",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "outdoor_city",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-037",
+    "template": "Take yourself or [person] to an area where there are multiple bars or cafés and pick one at random to go into.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "date-038",
+    "template": "Go to a food truck park or cluster of street food vendors and try at least two different stalls.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-039",
+    "template": "Ask [person] out for a walk-and-talk date around a block, park, or waterfront instead of sitting down somewhere.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-040",
+    "template": "Treat yourself to getting ready for a date even if you’re solo: shower, outfit, scent, then go out to a public place for 30 minutes.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-041",
+    "template": "Take [person] to a late-night dessert spot after 9 PM and sit down inside instead of taking it to go.",
+    "slots": [
+      "person"
+    ],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "date-042",
+    "template": "Go to a karaoke bar or private room with [person] or solo and sing at least one full song, even if you’re nervous.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "creative",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-043",
+    "template": "Pick a cuisine you’ve rarely or never had and go on a date (solo or with [person]) specifically to try that cuisine.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-044",
+    "template": "Have a phone-free dinner with [person] at home or out where both of you keep phones away until the meal is done.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "home_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "evening",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "date-045",
+    "template": "Take yourself on a midday date: go out for lunch alone at a restaurant where you’re seated and served.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-046",
+    "template": "Walk with [person] through a part of town with lights, murals, or interesting storefronts and take at least one photo together or separately.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "creative",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "date-047",
+    "template": "Plan a cheap movie night at home for you and [person] with popcorn, snacks, and a movie you actually sit and watch.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "home_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "night",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-048",
+    "template": "Take yourself to a nice coffee shop or hotel lobby bar and sit down long enough to finish a drink slowly.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "exploration",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "date-049",
+    "template": "Ask [person] to go vintage or thrift shopping with you and each pick one item the other actually buys and keeps.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-050",
+    "template": "Walk to a lookout point, hill, bridge, or balcony and share music with [person] using a splitter or one earbud each.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "date-051",
+    "template": "Take yourself to a fancy or bougie spot just for one drink or dessert, then leave like you do this all the time.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "self_care",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "date-052",
+    "template": "Invite [person] to a daytime coffee date and sit outside if possible, staying for at least 30 minutes.",
+    "slots": [
+      "person"
+    ],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-053",
+    "template": "Go to a local festival, street fair, or market and walk the whole thing with [person] or solo.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-054",
+    "template": "Have a solo museum date: one ticket, one audio guide if available, and at least 45 minutes of walking and looking.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "exploration",
+    "socialIntensity": "solo",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-055",
+    "template": "Take [person] to a place where you can see the city lights at night and stay long enough to actually relax into the view.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "date-056",
+    "template": "Plan a simple, cheap, but thoughtful solo date night at home: cooked meal, candles or lighting, and one movie or album.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "home_indoor",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-057",
+    "template": "Go to a neighborhood with lots of restaurants and physically walk the strip before choosing where to eat, even if you're alone.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "exploration",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-058",
+    "template": "Invite [person] to join you at a live comedy show, open mic, or performance and stay until it ends.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-059",
+    "template": "Treat yourself to a long walk followed by a sit-down drink or dessert in a different neighborhood than usual.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "solo",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-060",
+    "template": "Have a board game or card game date night with [person] either at home or at a bar or café that offers games.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-061",
+    "template": "Take yourself out for brunch on a weekend and sit outside or by a window people-watching.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "small_group",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-062",
+    "template": "Invite [person] to a casual foodie date where you share at least two different dishes or small plates.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-063",
+    "template": "Go to a rooftop, balcony, or park late enough to see stars or the night sky and stay until you feel your body fully relax.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "date-064",
+    "template": "Have a mall date with [person] or solo where the mission is just to walk the whole mall and people-watch, not shop.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-065",
+    "template": "Choose a restaurant you’ve always been too nervous or intimidated to try and finally go, even if it’s just for one dish.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-066",
+    "template": "Invite [person] for a walking ice cream date: buy ice cream and walk at least 15 minutes while eating.",
+    "slots": [
+      "person"
+    ],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-067",
+    "template": "Take a solo train, bus, or tram ride at night just to see your city lit up, then hop off one stop early and walk the rest.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "self_care",
+    "socialIntensity": "solo",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-068",
+    "template": "Find a local wine bar, tea house, or specialty drink spot and take [person] or yourself there for something you’ve never ordered.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "home_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-069",
+    "template": "Have a sit-down pizza date, even if it’s just a slice shop: no rushing, eat at the table or counter.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-070",
+    "template": "Invite [person] to walk with you across a bridge, overpass, or long walkway and back, talking the whole time.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "date-071",
+    "template": "Take yourself somewhere slightly overdressed for the occasion just for the fun of it and stay out for at least 30 minutes.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "self_care",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "date-072",
+    "template": "Have a cheap date night with [person] where you split fries, a drink, or one cheap meal and sit and talk for 30 minutes.",
+    "slots": [
+      "person"
+    ],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-073",
+    "template": "Drive or ride out to a look-out or scenic pull-off with [person] or alone, and stay until you’ve had at least one real thought about your life.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "outdoor_nature",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-074",
+    "template": "Go to a bookstore or library with [person] where you each pick one book the other should read and at least read the first chapter together there.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "exploration",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-075",
+    "template": "Take yourself on a city night walk specifically to look into the lit windows of bars, cafés, and restaurants as you pass.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "self_care",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "night",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "date-076",
+    "template": "Invite [person] to a casual food-court date where you each grab something from different places and then meet back at one table.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-077",
+    "template": "Go to a body of water with [person] or solo and sit on the edge or shoreline for at least 20 minutes without scrolling.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "date-078",
+    "template": "Have a solo self-care date at home: long shower or bath, clean outfit, and a meal or dessert you plate nicely for yourself.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "solo",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "home_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-079",
+    "template": "Take [person] on a bus or train ride across town and get off at a random stop with lights or shops to walk around.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-080",
+    "template": "Plan a late afternoon date that rolls into evening: a walk or activity before dark and food or drinks after.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "evening",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-081",
+    "template": "Take yourself to a restaurant with counter seating and choose the counter instead of a regular table.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "self_care",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "date-082",
+    "template": "Invite [person] to a casual gallery or museum exhibit and discuss your favorite and least favorite piece afterward.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-083",
+    "template": "Go to an ice rink, roller rink, or place to skate and skate at least one full song or lap whether you are good at it or not.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-084",
+    "template": "Have a solo coffee-and-journal date at a café: one drink and at least one full page of handwriting.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "reflection",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-085",
+    "template": "Take [person] to your favorite cheap food spot and order for both of you if they're cool with it.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "date-086",
+    "template": "Walk a full loop around a lake, pond, or very large block as if it’s a slow date with yourself.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "solo",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-087",
+    "template": "Invite [person] to an early morning coffee or breakfast date to see the city before it fully wakes up.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "cheap",
+    "timeOfDay": "morning",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-088",
+    "template": "Take yourself to a random restaurant within a set distance that you’ve never been to and order whatever actually sounds best.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "self_care",
+    "socialIntensity": "solo",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-089",
+    "template": "Have a ‘no phone at the table’ policy with [person] or solo for an entire meal out, focusing only on the food and the moment.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "date-090",
+    "template": "Take a long walk through a lively strip or downtown area at night with [person] or solo just to soak in the energy.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-091",
+    "template": "Go to a nearby town or neighborhood by train, car, or bus and have a mini date there instead of your usual area.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-092",
+    "template": "Invite [person] to split a sampler plate, tasting flight, or variety platter with you.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "date-093",
+    "template": "Have a solo ‘get ready with me’ night: pick an outfit, do your grooming, and go somewhere public for at least 45 minutes.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "self_care",
+    "socialIntensity": "solo",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "moderate",
+    "timeOfDay": "night",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-094",
+    "template": "Take [person] for a late-night walk in a safe, well-lit area and talk until one of you mentions being tired.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-095",
+    "template": "Go to a food spot that has outdoor seating and stay until the scene around you changes at least once such as sunset to dark or busy to slow.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "evening",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "date-096",
+    "template": "Invite [person] to a park date where each of you brings one surprise snack or drink for the other.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "outdoor_city",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-097",
+    "template": "Have a solo date where you intentionally speak out loud one nice thing about yourself before you leave the house and after you get back.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "home_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-098",
+    "template": "Take [person] to a photo-worthy spot like a mural, viewpoint, or landmark and ask someone to take a photo of you together.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-099",
+    "template": "Go on a day-date with yourself: one activity out of the house plus one sit-down meal or coffee shop stop.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "solo",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "home_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "date-100",
+    "template": "Invite [person] to join you for a full date that includes walking somewhere, sitting and talking somewhere, and eating or drinking something together.",
+    "slots": [
+      "person"
+    ],
+    "size": "massive",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "stamina",
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  }
+]

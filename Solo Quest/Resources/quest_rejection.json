@@ -1,0 +1,1818 @@
+[
+  {
+    "id": "rejection-001",
+    "template": "Make eye contact, smile, and say hello to 10 different strangers during one outing.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience",
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-002",
+    "template": "Give a specific, respectful compliment about style or vibe to 5 strangers and then walk away without lingering.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience",
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-003",
+    "template": "Start a short conversation with someone you find attractive in a public place, keep it under 2 minutes, and exit gracefully.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-004",
+    "template": "Ask someone you find attractive for a genuine recommendation such as a coffee, food, or local spot and sincerely thank them.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-005",
+    "template": "Chat with the person in front of or behind you in a line until the line moves and your transaction is done.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "rejection-006",
+    "template": "At a bar, café, or event, introduce yourself by name to someone you find attractive and ask their name too.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-007",
+    "template": "Ask someone what they’re drinking or eating, say you were curious about it, and react with a real comment.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-008",
+    "template": "Start a conversation about something happening around you such as the music, crowd, or venue and keep it going for at least 60 seconds.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "rejection-009",
+    "template": "Ask someone how their night is going and follow up with at least one curious question based on their answer.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-010",
+    "template": "Give one compliment that includes why you like that thing such as “That jacket is fire, the color really fits you.” then exit politely.",
+    "slots": [],
+    "size": "micro",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "rejection-011",
+    "template": "Ask someone you find attractive for directions or help finding something and add one extra sentence of small talk before leaving.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-012",
+    "template": "Join a small group conversation where you know no one and contribute at least two comments before excusing yourself.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience",
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "small_group",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "rejection-013",
+    "template": "Ask someone you find attractive what brings them here tonight and ask one follow-up question about their answer.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-014",
+    "template": "Make one light-hearted, non-insulting joke with someone new and stay present for their reaction without nervously backtracking.",
+    "slots": [],
+    "size": "micro",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "rejection-015",
+    "template": "Ask someone to help you choose between two items, follow their suggestion, and briefly chat about why they picked it.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-016",
+    "template": "Hold a conversation with a stranger for at least 3 minutes without checking your phone once.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-017",
+    "template": "Ask someone if they live in the area or are visiting, then ask what they like most about where they’re from.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-018",
+    "template": "Ask a stranger what their favorite thing about this city is and share your own favorite after they answer.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-019",
+    "template": "Approach a small group and ask a fun opinion question such as “We’re deciding: X or Y, what do you think?” then thank them and bounce.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience",
+      "luck"
+    ],
+    "category": "exploration",
+    "socialIntensity": "small_group",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "rejection-020",
+    "template": "Tell someone you just wanted to say hi because they seemed interesting or had good energy, then introduce yourself.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-021",
+    "template": "Ask someone what they like to do for fun outside of work or school and ask one follow-up question based on their answer.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-022",
+    "template": "Stand or sit in a social spot for 10 minutes with open body language and no phone, letting people see you are approachable.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "small_group",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "rejection-023",
+    "template": "Ask someone about what they’re reading, wearing, or working on and let them talk for at least 30 seconds before you reply.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-024",
+    "template": "Give one compliment that is not about looks but about vibe or behavior such as “You seem like you’re having a fun night, I like that.”",
+    "slots": [],
+    "size": "micro",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "rejection-025",
+    "template": "Ask someone what they’re celebrating or what the occasion is for their night out if it feels appropriate and natural.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-026",
+    "template": "Ask if a seat near someone is taken, sit down, and have at least 90 seconds of conversation before leaving.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "rejection-027",
+    "template": "Ask someone to take a photo of you or your group, then thank them and add one extra line of small talk before parting.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-028",
+    "template": "Give a respectful compliment to someone in a group and then walk away without lingering or hovering around them.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "small_group",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "rejection-029",
+    "template": "Ask someone for a bar, restaurant, or café recommendation, then ask if they’ve been anywhere similar recently.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-030",
+    "template": "During a conversation with someone you find attractive, hold comfortable eye contact for at least 10 seconds at a time while you talk.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "rejection-031",
+    "template": "Ask someone what kind of music they like and follow up with a question about artists, concerts, or playlists.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-032",
+    "template": "Approach someone who is also alone at an event and ask how they heard about it, then share how you found it.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "rejection-033",
+    "template": "Ask someone what a perfect off-day looks like for them, then share what a perfect day off looks like for you.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-034",
+    "template": "Give a compliment and stay present if they compliment you back instead of deflecting or talking yourself down.",
+    "slots": [],
+    "size": "micro",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "rejection-035",
+    "template": "Ask where they got a specific item they’re wearing, respond with real interest, and then let the conversation end naturally.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "rejection-036",
+    "template": "In one night out, intentionally start conversations with at least 3 different people or groups you didn’t know.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "charisma",
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "small_group",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "rejection-037",
+    "template": "Ask someone if they are originally from this city and ask what they like or don’t like about living here.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-038",
+    "template": "On purpose, collect 3 gentle rejections in one night by respectfully approaching people and accepting any no with a smile.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "challenge",
+    "socialIntensity": "small_group",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-039",
+    "template": "Ask someone what they do for fun outside of work and let them talk for at least 45 seconds without interrupting.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-040",
+    "template": "Ask a stranger or group if they know another good spot nearby and consider actually going to their suggestion.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-041",
+    "template": "In a conversation with someone you’re attracted to, consciously slow down your speech instead of rushing or rambling.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "rejection-042",
+    "template": "Ask someone what their go-to comfort food or show is and share yours after they answer.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-043",
+    "template": "Walk up to someone and say, “You seemed cool, I wanted to say hi,” then introduce yourself and ask their name.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-044",
+    "template": "Compliment someone’s style, then ask how they would describe their style or where they like to shop.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-045",
+    "template": "Join a dance floor or high-energy area for at least one whole song even if you feel awkward and self-conscious.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "rejection-046",
+    "template": "Ask someone to recommend a song or artist, then later that night actually listen to at least one track from them.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-047",
+    "template": "Stand in the most social area of the room for 10 minutes without touching your phone, just taking in the space.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "rejection-048",
+    "template": "Ask someone how they know the host or found this event, then share your connection or reason for being there.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-049",
+    "template": "Take a conversation from surface-level topics into something slightly deeper such as goals, dreams, or favorite memories.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence",
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "rejection-050",
+    "template": "Ask someone what the highlight of their week has been so far and share your highlight after they answer.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-051",
+    "template": "In one outing, give 3 compliments: one about style, one about energy, and one about something they’re doing.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck",
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "rejection-052",
+    "template": "Ask someone for their social media or phone number in a clear, respectful way and accept any answer without asking twice.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-053",
+    "template": "After at least a 5-minute conversation, ask if they’d be open to grabbing coffee or a drink another time, clearly but casually.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "rejection-054",
+    "template": "Get at least one contact from someone you’re genuinely attracted to during a night out, even if it takes multiple tries.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience",
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "flexible",
+    "costLevel": "cheap",
+    "timeOfDay": "night",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "rejection-055",
+    "template": "Ask someone you’re attracted to on a clear, respectful date such as coffee or a casual drink and accept their answer without pressure.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "flexible",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-056",
+    "template": "On a dating app, send 10 first messages that are personal and specific instead of copy-paste openers.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma",
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "rejection-057",
+    "template": "Take one active chat from a dating app or social media and propose a specific plan with a day range and type of date.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-058",
+    "template": "Ask someone you find attractive a playful, low-stakes question such as “pizza or tacos?” and riff with their answer for at least 30 seconds.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-059",
+    "template": "In one outing, approach 5 people who are standing or sitting alone and make small talk for at least 30 seconds each.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "charisma",
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "small_group",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "rejection-060",
+    "template": "Ask someone what their favorite type of night out is such as quiet bar, loud club, or house hang and share your own answer.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "home_indoor",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-061",
+    "template": "Give a compliment to someone who intimidates you a little and then walk away without downplaying yourself internally.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-062",
+    "template": "At a bar or café, ask someone what they’re working on or reading and respond with one thoughtful comment.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-063",
+    "template": "Approach someone with headphones in, politely gesture, and ask if they have a minute to answer a fun question. If they say no, thank them and move on.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-064",
+    "template": "Ask someone what they’re celebrating if they’re clearly in a fun group mood, then wish them a genuinely good night.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-065",
+    "template": "Collect 5 small brush-offs or quick no’s in one week of going out and log each one without judging yourself.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "self_care",
+    "socialIntensity": "solo",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "rejection-066",
+    "template": "Ask someone what kind of trips or travel they like doing, then share one place you’d like to visit someday.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-067",
+    "template": "Ask a stranger for a genuine style opinion such as “Which of these looks better on me?” and accept whatever they say with a smile.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-068",
+    "template": "Approach someone in a chill area and ask if they mind you joining the table or standing nearby, then chat briefly if they say yes.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "rejection-069",
+    "template": "Ask someone what their dream job or dream lifestyle looks like and share a piece of yours afterward.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-070",
+    "template": "Have a full conversation with someone you find attractive while standing tall, shoulders back, instead of shrinking yourself.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "rejection-071",
+    "template": "Ask someone new what their favorite local spot is for food or drinks and write it down or save it in your phone after.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-072",
+    "template": "Approach someone and say you’re practicing talking to more people and ask if you can ask them a fun question. Accept any no calmly.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "small_group",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "rejection-073",
+    "template": "Ask someone what their favorite type of music to dance to is and if you’re in a dance setting, stay for one song of that genre if it comes on.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-074",
+    "template": "Collect one clear yes or no to a date or hangout invitation in a week, instead of keeping things in endless flirting limbo.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-075",
+    "template": "Ask someone if they want to join you for a quick game such as pool, darts, or a bar game and play one round if they agree.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-076",
+    "template": "Approach a pair of people and ask a simple, fun group question, letting both respond before you leave.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "small_group",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "rejection-077",
+    "template": "Have a 5-minute conversation with someone you’re attracted to where you talk as much about them as you do about yourself.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "rejection-078",
+    "template": "Collect 10 short small-talk reps in one night whether at bars, cafés, lines, or events without trying to turn all of them into flirting.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "charisma",
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "night",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-079",
+    "template": "Ask someone what they’re into outside of work and follow up by asking how they got into it in the first place.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-080",
+    "template": "Go out one night with the specific goal of collecting at least 2 rejections and 2 neutral or positive interactions, tracking each one mentally.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-081",
+    "template": "Ask someone what their favorite way to spend a Sunday is and share yours, then exit the conversation before it dies on its own.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-082",
+    "template": "Approach someone and ask which song they would pick if they could control the vibe right now, then talk about it briefly.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "rejection-083",
+    "template": "Take one night to practice only opening lines and quick chats without asking for any contact info at all.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "charisma",
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "rejection-084",
+    "template": "Ask someone what kind of people they vibe with best and share one quality you like in people you’re drawn to.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-085",
+    "template": "In a conversation, admit one small non-heavy truth about yourself such as being new to the city or trying to talk to more people.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "rejection-086",
+    "template": "Ask someone what they’d rather do: stay in with movies or go out dancing, then share your preference and one short story behind it.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-087",
+    "template": "Approach 3 people or groups who look welcoming, even if you’re nervous, and say at least one full sentence to each before deciding if you’ll stay or leave.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma",
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "small_group",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "rejection-088",
+    "template": "Ask someone what their favorite kind of night in looks like and share one detail about yours that shows your personality.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-089",
+    "template": "End a conversation on purpose while it’s still going well by saying you enjoyed talking and wishing them a good night, instead of waiting for awkward silence.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "rejection-090",
+    "template": "Ask someone where they would take a friend visiting from out of town, then share where you would take someone visiting you.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-091",
+    "template": "Spend one night out wearing something you actually feel confident in and consciously open at least 5 interactions while wearing it.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience",
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "rejection-092",
+    "template": "Approach someone you find attractive and ask, “Honest opinion—should I order X or Y?” and then follow their choice.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "rejection-093",
+    "template": "Ask someone what they do but then immediately follow up by asking what they’d do if money and time weren’t a problem.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-094",
+    "template": "In one week, attempt at least 3 clear invitations such as coffee, walk, or drink and write down how each one went afterward.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "outdoor_city",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "rejection-095",
+    "template": "Ask someone for their number or social handle, and if they hesitate or say no, respond with genuine “All good, nice meeting you.” and mean it.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-096",
+    "template": "Have one night where your only metric of success is number of conversations started, not numbers or dates gained. Aim for at least 8 openings.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "charisma",
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-097",
+    "template": "Ask someone what they think makes a good conversation with a stranger and listen to their full answer without interrupting.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-098",
+    "template": "When you feel intimidated by someone’s looks or presence, walk directly past them once with your posture tall, then later give one small compliment if the moment feels right.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "rejection-099",
+    "template": "Take one person from a short, fun interaction to exchanging contact info within the same outing, even if your voice shakes a little.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "rejection-100",
+    "template": "In one week, collect at least 5 rejections or brush-offs and 5 neutral or positive responses, proving to yourself that both can coexist and you are still fine.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma",
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "solo",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  }
+]

@@ -1,0 +1,1806 @@
+[
+  {
+    "id": "strength-100-pushups-throughout-day",
+    "template": "Complete 100 push-ups throughout the day, broken into as many sets as needed.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "strength-morning-workout-circuit",
+    "template": "Do a morning workout circuit: 20 squats, 15 push-ups, 10 lunges each leg, 30-second plank.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "morning",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-pull-up-bar-attempt",
+    "template": "Find a pull-up bar and do as many pull-ups or chin-ups as you can, then hang for 30 seconds.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-heavy-object-carry-distance",
+    "template": "Pick up something heavy at home and carry it from one end of your space to the other 10 times.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "home_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-outdoor-park-workout",
+    "template": "Go to a park and use any available equipment for a 20-minute strength workout.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-decline-pushups",
+    "template": "Do 3 sets of 10 decline push-ups with your feet elevated on a chair or step.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-diamond-pushups",
+    "template": "Do 3 sets of 8 diamond push-ups, keeping your hands close together.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-pistol-squat-practice",
+    "template": "Practice pistol squats (single-leg squats) for 10 minutes, using support if needed.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-dead-hang-challenge",
+    "template": "Find something to hang from and hold a dead hang for as long as possible. Rest and repeat 3 times.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-jump-squat-sets",
+    "template": "Do 4 sets of 15 jump squats with 30 seconds rest between sets.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-bulgarian-split-squats",
+    "template": "Do 3 sets of 10 Bulgarian split squats on each leg using a chair or couch for your back foot.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "home_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-pike-pushups",
+    "template": "Do 3 sets of 10 pike push-ups to work your shoulders and upper chest.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-tricep-dips-session",
+    "template": "Find a sturdy chair or ledge and do 3 sets of 12 tricep dips.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-superman-holds",
+    "template": "Do 5 sets of 30-second Superman holds to strengthen your lower back.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-mountain-climbers-blast",
+    "template": "Do 4 sets of 30 mountain climbers at high intensity with minimal rest.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-handstand-wall-practice",
+    "template": "Practice handstands against a wall for 10 minutes, building up your hold time.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-bear-crawl-workout",
+    "template": "Do bear crawls for a total of 5 minutes, resting as needed between sets.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-crab-walk-challenge",
+    "template": "Do crab walks for 3 minutes total, alternating direction every 30 seconds.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-resistance-band-workout",
+    "template": "Complete a 15-minute resistance band workout targeting arms, back, and shoulders.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-weighted-backpack-walk",
+    "template": "Fill a backpack with heavy items and walk for 30 minutes without removing it.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-isometric-wall-sit-max",
+    "template": "Do a wall sit and hold until failure. Rest 2 minutes and repeat for a total of 5 attempts.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-plank-variations-circuit",
+    "template": "Complete a plank circuit: 30 seconds front, 30 seconds left side, 30 seconds right side. Repeat 3 times.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-lunge-walk-distance",
+    "template": "Do walking lunges for 100 meters or the length of your street without stopping.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-burpee-challenge-50",
+    "template": "Complete 50 burpees broken into sets throughout the day.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "strength-inchworm-walkout",
+    "template": "Do 3 sets of 10 inchworms, walking your hands out to a plank and back.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-box-jump-training",
+    "template": "Find a sturdy elevated surface and do 4 sets of 10 box jumps or step-ups.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-single-leg-deadlift",
+    "template": "Do 3 sets of 12 single-leg Romanian deadlifts on each leg, using a water bottle for weight if desired.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-hollow-body-hold",
+    "template": "Practice hollow body holds for a total of 3 minutes, breaking into sets as needed.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-sprawl-workout",
+    "template": "Do 5 sets of 10 sprawls, a wrestling conditioning move similar to a half-burpee.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-towel-rows",
+    "template": "Loop a towel over a sturdy door handle and do 3 sets of 12 towel rows.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-water-jug-curls",
+    "template": "Fill two large water jugs and do 4 sets of 15 bicep curls with each arm.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-grocery-bag-farmer-walk",
+    "template": "Fill two heavy bags and walk around your block without setting them down.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-couch-to-floor-situps",
+    "template": "Do 3 sets of 25 sit-ups with your feet anchored under your couch.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "home_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-v-up-challenge",
+    "template": "Do 4 sets of 15 V-ups, touching your toes at the top of each rep.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-leg-raise-sets",
+    "template": "Lying on your back, do 4 sets of 15 leg raises keeping your legs straight.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-bicycle-crunches-100",
+    "template": "Do 100 bicycle crunches in as few sets as possible.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-russian-twists-weighted",
+    "template": "Hold something heavy and do 3 sets of 20 Russian twists, touching the weight to the ground on each side.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-side-plank-hip-dips",
+    "template": "Do 3 sets of 12 side plank hip dips on each side.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-flutter-kicks-burn",
+    "template": "Do flutter kicks for 2 minutes total, resting only when necessary.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-full-body-tabata",
+    "template": "Complete a 4-minute Tabata workout: 20 seconds work, 10 seconds rest, alternating between squats and push-ups.",
+    "slots": [],
+    "size": "micro",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-stair-sprint-workout",
+    "template": "Find a staircase and sprint up it 10 times, walking down to recover between sprints.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-playground-muscle-up-practice",
+    "template": "Go to a playground and practice muscle-up progressions on the bars for 15 minutes.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-commando-plank-sets",
+    "template": "Do 3 sets of 10 commando planks, going from forearms to hands and back down.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-shoulder-tap-pushups",
+    "template": "Do 3 sets of 12 push-ups where you tap your opposite shoulder at the top of each rep.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-gecko-crawl",
+    "template": "Practice gecko crawls (slow, controlled crawling movements) for 5 minutes total.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-duck-walk",
+    "template": "Do duck walks (walking in a deep squat position) for 3 minutes total.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-broad-jump-practice",
+    "template": "Practice standing broad jumps, doing 15 jumps for maximum distance.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-tuck-jump-workout",
+    "template": "Do 4 sets of 10 tuck jumps, bringing your knees to your chest at the top.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-lateral-bound-training",
+    "template": "Do 3 sets of 20 lateral bounds, jumping side to side as far as you can.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-skater-jumps",
+    "template": "Do 4 sets of 15 skater jumps, landing softly on one leg each time.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-clapping-pushups",
+    "template": "Do as many clapping push-ups as you can, aiming for at least 10 total.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-archer-pushups",
+    "template": "Do 3 sets of 6 archer push-ups on each side, keeping one arm straight.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-donkey-kicks-circuit",
+    "template": "Do 3 sets of 20 donkey kicks on each leg, squeezing at the top.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-fire-hydrants",
+    "template": "Do 3 sets of 20 fire hydrants on each leg to strengthen your hips and glutes.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-hip-thrust-session",
+    "template": "Do 4 sets of 15 hip thrusts with your back against a couch or bench.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "home_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-sumo-squat-hold",
+    "template": "Hold a wide sumo squat position for a total of 3 minutes, breaking as needed.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-lunge-jumps",
+    "template": "Do 3 sets of 10 jumping lunges on each leg, switching legs mid-air.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-reverse-lunge-workout",
+    "template": "Do 4 sets of 12 reverse lunges on each leg, focusing on control.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-curtsy-lunge-sets",
+    "template": "Do 3 sets of 12 curtsy lunges on each leg to target your inner thighs and glutes.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-step-up-challenge",
+    "template": "Find a sturdy step or bench and do 4 sets of 15 step-ups on each leg.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-calf-raise-challenge",
+    "template": "Do 100 calf raises throughout the day, breaking into sets as needed.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-toe-raises",
+    "template": "Do 3 sets of 25 toe raises, lifting your toes while keeping heels on the ground to strengthen your shins.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-wrist-curl-workout",
+    "template": "Use heavy books or water bottles to do 3 sets of 15 wrist curls in both directions.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-grip-trainer-session",
+    "template": "Squeeze a stress ball, tennis ball, or grip trainer 100 times with each hand.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-newspaper-crumple",
+    "template": "Crumple newspaper or paper sheets into tight balls using only one hand. Do 10 sheets per hand.",
+    "slots": [],
+    "size": "micro",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "strength-book-hold-challenge",
+    "template": "Hold a heavy book or stack of books straight out in front of you for as long as possible. Repeat 5 times.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-overhead-carry",
+    "template": "Carry something moderately heavy overhead while walking for 2 minutes total.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-suitcase-carry",
+    "template": "Hold a heavy bag in one hand and walk for 2 minutes, then switch hands and repeat.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-sandbag-workout",
+    "template": "Fill a duffel bag with heavy items and complete a 15-minute workout: cleans, presses, and squats.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-tire-flip-simulation",
+    "template": "Practice the tire flip motion with a heavy box or furniture piece, doing 3 sets of 10 flips.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-sledgehammer-chop-motion",
+    "template": "Practice woodchopper motions with a heavy object for 3 sets of 15 on each side.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-kettlebell-swing-substitute",
+    "template": "Do kettlebell swing motions with a heavy bag or backpack for 4 sets of 20 swings.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-goblet-squat-session",
+    "template": "Hold a heavy object at your chest and do 4 sets of 15 goblet squats.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-shoulder-press-improvised",
+    "template": "Use heavy water jugs or bags to do 4 sets of 12 overhead shoulder presses.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-bent-over-row",
+    "template": "Use heavy objects for 4 sets of 12 bent-over rows, pulling toward your hips.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-renegade-rows",
+    "template": "In a push-up position with weights, do 3 sets of 10 renegade rows on each side.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-floor-press",
+    "template": "Lie on your back and press heavy objects from your chest 4 sets of 12 times.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-skull-crushers-floor",
+    "template": "Lying on your back, do 3 sets of 12 skull crushers with water bottles or light weights.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-pushup-pyramid",
+    "template": "Do a push-up pyramid: 1, 2, 3, up to 10, then back down to 1.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-squat-pyramid",
+    "template": "Do a squat pyramid: 5, 10, 15, 20, 15, 10, 5 reps with short rests between.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-emom-10-minutes",
+    "template": "Every minute on the minute for 10 minutes: do 10 push-ups and 10 squats.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-amrap-15-minutes",
+    "template": "As many rounds as possible in 15 minutes: 10 burpees, 15 squats, 20 lunges.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "strength-deck-of-cards-workout",
+    "template": "Assign exercises to card suits and flip through a deck, doing the number shown. Complete at least half the deck.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "strength-5x5-workout",
+    "template": "Pick 5 exercises and do 5 sets of 5 reps each at challenging difficulty.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-descending-ladder",
+    "template": "Do 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 push-ups with 10, 9, 8, etc. squats between each set.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-100-squat-challenge",
+    "template": "Complete 100 squats as fast as possible, breaking into sets as needed.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-200-rep-challenge",
+    "template": "Complete 200 total reps split between squats, push-ups, lunges, and sit-ups.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "strength-30-minute-nonstop",
+    "template": "Do 30 minutes of continuous strength training without sitting or lying down to rest.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina",
+      "resilience"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "strength-gym-session-full-body",
+    "template": "Go to a gym and complete a full-body strength workout hitting all major muscle groups.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "small_group",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "strength-rock-climbing-session",
+    "template": "Go to a climbing gym or outdoor climbing spot and climb for at least 30 minutes.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina",
+      "resilience"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "strength-swimming-laps",
+    "template": "Swim laps for 20 minutes focusing on building upper body strength.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-rowing-workout",
+    "template": "Use a rowing machine or do bent-over rows for 15 minutes of continuous back training.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-yoga-strength-flow",
+    "template": "Complete a 20-minute strength-focused yoga flow including chaturangas and warrior poses.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina",
+      "resilience"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-martial-arts-drills",
+    "template": "Practice punching and kicking combinations for 15 minutes, focusing on power and form.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-shadow-boxing-rounds",
+    "template": "Do 6 rounds of 3-minute shadow boxing with 1-minute rest between rounds.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-help-someone-move",
+    "template": "Help a friend or neighbor move something heavy like furniture or boxes.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "charisma",
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "strength-furniture-rearrange",
+    "template": "Rearrange the furniture in one room of your home by yourself.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "home_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "strength-yard-work-power",
+    "template": "Do 30 minutes of physical yard work: digging, raking, or moving heavy materials.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-carry-all-groceries-one-trip",
+    "template": "Challenge yourself to carry all your groceries from the car in a single trip.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "self_care",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "strength-hill-sprint-workout",
+    "template": "Find a hill and sprint up it 8 times, walking down to recover between each sprint.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  }
+]

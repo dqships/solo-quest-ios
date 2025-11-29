@@ -1,0 +1,137 @@
+{
+    "userId": "demo-user",
+    "rank": "D",
+    "level": 18,
+    "totalXp": 4800,
+    "streakDays": 5,
+    "sideQuestCredits": 2,
+    "stats": {
+      "luck": 600,
+      "charisma": 1500,
+      "strength": 700,
+      "stamina": 800,
+      "resilience": 800,
+      "intelligence": 400
+    },
+    "quests": {
+      "instances": [
+        {
+          "id": "6f0c40c1-0f2d-4f37-9c93-e8ca483b7ab8",
+          "questId": "pet-an-animal",
+          "assignedDate": "2025-11-29T09:00:00+00:00",
+          "source": "daily",
+          "state": "completed",
+          "failReason": null,
+          "acceptedAt": "2025-11-29T09:10:00+00:00",
+          "expiresAt": "2025-11-29T09:15:00+00:00",
+          "completionUnlockAt": "2025-11-29T09:11:15+00:00",
+          "completedAt": "2025-11-29T09:14:00+00:00",
+          "failedAt": null
+        },
+        {
+          "id": "e3d1bbde-7501-4e9d-b393-9504d2f0b36d",
+          "questId": "change-your-hair",
+          "assignedDate": "2025-11-29T09:00:00+00:00",
+          "source": "daily",
+          "state": "active",
+          "failReason": null,
+          "acceptedAt": "2025-11-29T09:05:00+00:00",
+          "expiresAt": "2025-11-29T09:35:00+00:00",
+          "completionUnlockAt": "2025-11-29T09:12:30+00:00",
+          "completedAt": null,
+          "failedAt": null
+        },
+        {
+          "id": "f25b8d47-75b1-4255-9f41-0a8a15e0ad58",
+          "questId": "clean-your-whole-house",
+          "assignedDate": "2025-11-29T09:00:00+00:00",
+          "source": "daily",
+          "state": "available",
+          "failReason": null,
+          "acceptedAt": null,
+          "expiresAt": null,
+          "completionUnlockAt": null,
+          "completedAt": null,
+          "failedAt": null
+        },
+        {
+          "id": "2b3d7fa0-9a69-4cec-9f0c-f399a958a2b7",
+          "questId": "go-to-mall-buy-outfit",
+          "assignedDate": "2025-11-29T09:00:00+00:00",
+          "source": "sideBundle",
+          "state": "failed",
+          "failReason": "timeout",
+          "acceptedAt": "2025-11-29T10:00:00+00:00",
+          "expiresAt": "2025-11-29T10:15:00+00:00",
+          "completionUnlockAt": "2025-11-29T10:03:45+00:00",
+          "completedAt": null,
+          "failedAt": "2025-11-29T10:15:00+00:00"
+        },
+        {
+          "id": "0e7bcbc0-0e04-4b8c-8989-2f593124d1e9",
+          "questId": "go-to-mall-talk-dont-buy",
+          "assignedDate": "2025-11-29T09:00:00+00:00",
+          "source": "sideBundle",
+          "state": "available",
+          "failReason": null,
+          "acceptedAt": null,
+          "expiresAt": null,
+          "completionUnlockAt": null,
+          "completedAt": null,
+          "failedAt": null
+        },
+        {
+          "id": "7a1a44c6-06e9-4c0d-9b07-25d9a05e24c7",
+          "questId": "compliment-someone-you-dont-know",
+          "assignedDate": "2025-11-29T09:00:00+00:00",
+          "source": "sideBundle",
+          "state": "available",
+          "failReason": null,
+          "acceptedAt": null,
+          "expiresAt": null,
+          "completionUnlockAt": null,
+          "completedAt": null,
+          "failedAt": null
+        }
+      ]
+    },
+    "activityLog": [
+      {
+        "id": "ba0b9799-1d7f-4a93-8a9a-59aa2e5a241b",
+        "date": "2025-11-29T09:14:00+00:00",
+        "type": "questCompleted",
+        "questId": "pet-an-animal",
+        "deltaByStat": {
+          "charisma": 30,
+          "luck": 20
+        },
+        "totalDelta": 50,
+        "note": "Completed quest: Pet an animal (cannot be your own)."
+      },
+      {
+        "id": "2cb34f3e-3b4f-4623-b305-2ef4e583f34a",
+        "date": "2025-11-29T10:15:00+00:00",
+        "type": "questFailed",
+        "questId": "go-to-mall-buy-outfit",
+        "deltaByStat": {
+          "charisma": -30,
+          "resilience": -20
+        },
+        "totalDelta": -50,
+        "note": "Failed side quest: Go to the mall to buy an outfit."
+      },
+      {
+        "id": "89410654-9ba6-483e-801e-20204a46ae7a",
+        "date": "2025-11-28T09:00:00+00:00",
+        "type": "dailySkipPenalty",
+        "questId": null,
+        "deltaByStat": {
+          "luck": -30,
+          "charisma": -30,
+          "resilience": -40
+        },
+        "totalDelta": -100,
+        "note": "Skipped all daily quests yesterday. Daily skip penalty applied."
+      }
+    ]
+  }

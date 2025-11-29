@@ -1,0 +1,1903 @@
+[
+  {
+    "id": "friendship-001",
+    "template": "Text someone you like but haven’t talked to in over a month and ask how they’ve really been, not just “wyd.”",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-002",
+    "template": "Invite [person] to grab coffee, boba, or tea this week and offer two possible days or times.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-003",
+    "template": "Call a friend instead of texting and stay on the phone for at least 10 minutes.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-004",
+    "template": "Send a voice note to [person] telling them one thing you genuinely appreciate about them.",
+    "slots": [
+      "person"
+    ],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-005",
+    "template": "Ask a coworker, neighbor, or classmate if they want to grab lunch or a quick snack after work or class.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-006",
+    "template": "Invite [person] to do a walk-and-talk hang in your neighborhood, park, or downtown area for at least 30 minutes.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "exploration",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-007",
+    "template": "Choose one online friend or supporter and ask if they’d ever want to do a 20–30 minute video call to connect more.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience",
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-008",
+    "template": "Send a genuine, specific compliment to 3 people you already know, about their work, personality, or growth.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "small_group",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-009",
+    "template": "Ask [person] if they want to cowork or study together for an hour at a café, library, or your place.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-010",
+    "template": "Host a tiny hang: invite at least 1 person over for a low-pressure chill night such as game, movie, or music.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-011",
+    "template": "Ask a friend if they want to hit a grocery store or Target run together and treat it like a mini hang, not just an errand.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "errand",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-012",
+    "template": "Invite [person] to watch a game, stream, or show together, either in person or via call with synced start time.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-013",
+    "template": "Ask a friend if they want to try a new restaurant, café, or food spot with you this week and actually set a time.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-014",
+    "template": "Reply to 5 people’s stories or posts today with something more meaningful than an emoji.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "small_group",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-015",
+    "template": "Ask [person] a deeper question than usual such as “What’s been on your mind lately?” and really listen.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "reflection",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-016",
+    "template": "Join a local meetup, class, or event where you don’t know anyone and introduce yourself to at least 2 people.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "stamina",
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "friendship-017",
+    "template": "Ask someone you already know casually if they’d like to hang out one-on-one for the first time.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "friendship-018",
+    "template": "Send a long appreciation text to [person] explaining how they’ve impacted your life positively.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-019",
+    "template": "Ask a friend if they want to start a tiny ritual with you such as weekly walks, calls, or gym sessions.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-020",
+    "template": "Invite [person] to bring a friend and meet you somewhere public, letting your circles overlap a little.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "friendship-021",
+    "template": "Ask a coworker or classmate you like how they’re finding the job or class and share your honest take too.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-022",
+    "template": "Invite [person] to come with you to an event you’re already going to such as a show, open mic, or meetup.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-023",
+    "template": "Organize a tiny group hang of 3–5 people at a bar, café, park, or someone’s living room.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "stamina",
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "small_group",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-024",
+    "template": "Ask a friend from your past neighborhood or school to catch up on a call or in person for at least 20 minutes.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-025",
+    "template": "Invite [person] to join you for a gym session, walk, or physical activity and actually show up on time.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-026",
+    "template": "Ask a friend what they’re excited about right now in life and ask at least one follow-up question.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-027",
+    "template": "Host a low-budget game night using whatever games or card decks you already have and invite at least 2 people.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "small_group",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-028",
+    "template": "Send [person] a link to a song, video, or meme that genuinely made you think of them and say why.",
+    "slots": [
+      "person"
+    ],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "creative",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-029",
+    "template": "Ask someone in your life what they’re struggling with lately and just listen without giving advice unless they ask.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "friendship-030",
+    "template": "Invite [person] to run an errand with you such as shopping, picking something up, or dropping something off.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-031",
+    "template": "Join a recurring local thing such as a weekly class, meetup, or group and actually show up one time.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "small_group",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-032",
+    "template": "Ask a friend if they want to do a joint “work session” at your place, their place, or a café for 60–90 minutes.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-033",
+    "template": "Tell [person] directly that you enjoy their company and want to hang out more often.",
+    "slots": [
+      "person"
+    ],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-034",
+    "template": "Ask someone new at work, gym, or class how long they’ve been coming there and what they like about it.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "friendship-035",
+    "template": "Invite [person] to try a hobby you already like such as music, art, gaming, or gym and show them the basics.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "creative",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-036",
+    "template": "Ask a friend if they want to plan a micro-trip such as a day trip to a nearby town or park in the next month.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma",
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-037",
+    "template": "Send a sincere apology to [person] if there’s someone you feel you lowkey dropped, ghosted, or offended in the past.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-038",
+    "template": "Ask someone you respect if they want to grab coffee so you can hear more about their story or path.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "friendship-039",
+    "template": "Invite [person] to a park hang: one blanket, some snacks, drinks, and at least 45 minutes of conversation.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "outdoor_city",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-040",
+    "template": "Ask someone you already see regularly such as a barista, receptionist, or neighbor what their name is and remember it.",
+    "slots": [],
+    "size": "micro",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "friendship-041",
+    "template": "Send 3 check-in texts today that are more than “wyd” and ask something specific about their life.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-042",
+    "template": "Invite [person] to a “no phones” meal or coffee where both of you keep phones off the table the whole time.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-043",
+    "template": "Ask a friend if they want help with something specific such as moving, a project, or a creative idea and actually show up.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "creative",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-044",
+    "template": "Ask [person] what they’ve been proud of lately and reflect it back to them verbally in your own words.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-045",
+    "template": "Invite a small group of 3–4 people to a low-key “bring your own snack” hang at a park or someone’s home.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "small_group",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "home_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-046",
+    "template": "Ask a friend from another city if they’d ever want to visit you and what they’d want to see in your area.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-047",
+    "template": "Send [person] an old photo or screenshot that reminds you of a good memory and talk about it for a bit.",
+    "slots": [
+      "person"
+    ],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-048",
+    "template": "Join a group activity where you have to talk to others such as a class, run club, game night, or meetup, and introduce yourself out loud.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "stamina",
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "flexible",
+    "costLevel": "moderate",
+    "timeOfDay": "night",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "friendship-049",
+    "template": "Ask someone you like hanging out with if they know anyone they think you’d vibe with, and be open to an introduction.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "friendship-050",
+    "template": "Invite [person] to an early morning walk, coffee, or gym session before noon, then actually show up.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "morning",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-051",
+    "template": "Ask a friend if they want to start a monthly ritual such as brunch, movie night, or creative session and schedule the first one.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "creative",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-052",
+    "template": "Offer to help [person] with something small such as giving feedback on a project, reading something, or listening to a vent.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-053",
+    "template": "Ask a friend their opinion on something that actually matters to you such as a decision, outfit, or plan and thank them for being honest.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-054",
+    "template": "Invite [person] to do a “no money” hang like a walk, park sit, or library visit to prove you don’t need to spend to socialize.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-055",
+    "template": "Text 3 people the same question: “What’s something good that happened to you this week?” and respond to each answer properly.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "small_group",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-056",
+    "template": "Ask [person] if they’d like to collaborate with you on something small such as content, a creative idea, or a side project.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "creative",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-057",
+    "template": "Choose one friend whose work or art you like and promote them once publicly such as sharing their link or story.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "friendship-058",
+    "template": "Invite [person] to explore a part of town neither of you go to often and walk one full block or area together.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "exploration",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-059",
+    "template": "Ask a friend from a different background than you about part of their upbringing or culture and listen without centering yourself.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "reflection",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-060",
+    "template": "Invite [person] to attend a class, workshop, or meetup with you and actually go, even if you feel awkward at first.",
+    "slots": [
+      "person"
+    ],
+    "size": "massive",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "stamina",
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "flexible",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-061",
+    "template": "Ask someone online who supports your work or content if they’d like to hop on a quick 10–15 minute call sometime to say thanks.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "friendship-062",
+    "template": "Tell [person] about something you’re struggling with and let them respond instead of pretending everything is always fine.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-063",
+    "template": "Ask a friend what they want more of in their social life this year and ask how you can support that.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-064",
+    "template": "Invite [person] to a chill at-home night such as cooking together, takeout plus movie, or shared music session.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "creative",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "home_indoor",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-065",
+    "template": "Ask someone you see regularly at the gym, café, or bus stop one extra question that moves the conversation past small talk.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "friendship-066",
+    "template": "Invite [person] to help you with something small such as giving feedback or trying a prototype, and make it clear there’s no pressure.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-067",
+    "template": "Send 5 quick check-in messages to people in different parts of your life such as work, school, hometown, and online.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "small_group",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "home_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-068",
+    "template": "Ask [person] if they want to join you in a mini challenge such as a week of walks, a reading challenge, or daily check-ins.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-069",
+    "template": "Tell someone, out loud, that you’re glad they’re in your life and watch their reaction without deflecting.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-070",
+    "template": "Invite [person] to come sit with you somewhere scenic such as a river, rooftop, or hill for at least 30 minutes of talking.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "outdoor_nature",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-071",
+    "template": "Ask a friend if there’s a show, movie, or game they want to share with you and let them pick for one night.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-072",
+    "template": "Invite [person] to “run an outside mission” with you such as a Walmart run, mall browse, or late-night snack trip.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "creative",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "night",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-073",
+    "template": "Ask someone in your life what kind of friend they want to be better at being and share your own answer too.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "friendship-074",
+    "template": "Invite [person] to meet you halfway between both of your places for a neutral spot hang.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-075",
+    "template": "Ask a friend from a long time ago what they remember most about the time you spent together back then.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-076",
+    "template": "Invite [person] to a new spot you’ve never tried such as a café, bar, park, or late-night food place.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-077",
+    "template": "Ask someone at an event or meetup what made them decide to show up tonight and share your reason too.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "friendship-078",
+    "template": "Invite [person] to bring one of their friends you don’t know and meet all together for a chill hang.",
+    "slots": [
+      "person"
+    ],
+    "size": "massive",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck",
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-079",
+    "template": "Ask a friend what they want their life to look like in 5 years and ask at least two follow-up questions.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-080",
+    "template": "Invite [person] to a “focused work + chill after” hang where you both work for an hour then hang for at least 20 minutes.",
+    "slots": [
+      "person"
+    ],
+    "size": "massive",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-081",
+    "template": "Tell someone they can call or text you anytime about something specific such as breakups, creative blocks, or job stress—and mean it.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-082",
+    "template": "Invite [person] to a “bring your own drink” balcony, porch, or parking-lot conversation for at least 30 minutes.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-083",
+    "template": "Ask a friend what they feel they can’t really talk to most people about and see if they want to share.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-084",
+    "template": "Invite [person] to attend a live event with you such as a show, open mic, sports game, or local performance.",
+    "slots": [
+      "person"
+    ],
+    "size": "massive",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "friendship-085",
+    "template": "Ask someone whose hustle or creativity you respect if they’d be down to swap notes over coffee or a call.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "friendship-086",
+    "template": "Invite [person] to do a late-night drive or public transport ride with you to just talk and look at the city.",
+    "slots": [
+      "person"
+    ],
+    "size": "massive",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "charisma",
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "friendship-087",
+    "template": "Ask a friend if you can vent about something for 5 minutes and then ask them if they want to vent about anything too.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-088",
+    "template": "Invite [person] to a grocery-store or market mission where the goal is to find one new snack or drink to try together.",
+    "slots": [
+      "person"
+    ],
+    "size": "big",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "errand",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-089",
+    "template": "Ask someone what friendship means to them and share one thing you wish more people knew about how to be your friend.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "friendship-090",
+    "template": "Invite [person] to a “phones away for 20 minutes” conversation where you both put your phones face down and just talk.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-091",
+    "template": "Ask a friend what they think your strengths are as a person and let them talk without arguing against it.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "friendship-092",
+    "template": "Invite [person] to join you in trying a new low-stakes hobby together such as sketching at a café, journaling, or photography walk.",
+    "slots": [
+      "person"
+    ],
+    "size": "massive",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma",
+      "stamina"
+    ],
+    "category": "creative",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-093",
+    "template": "Ask someone what they wish their social life looked like and listen fully before relating it back to yourself.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "friendship-094",
+    "template": "Invite [person] to a “creative night” where you both work on something such as music, drawing, writing, or planning, even if it’s rough.",
+    "slots": [
+      "person"
+    ],
+    "size": "massive",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma",
+      "stamina"
+    ],
+    "category": "creative",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-095",
+    "template": "Ask a friend what they remember about the first time they met you and share what you remember about them.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-096",
+    "template": "Invite [person] to go for a long walk or drive where you both take turns choosing topics to talk about.",
+    "slots": [
+      "person"
+    ],
+    "size": "massive",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-097",
+    "template": "Ask someone you trust to be honest about one thing you could do better as a friend and thank them for being real.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "friendship-098",
+    "template": "Invite [person] to a small, intentional hang where you each share one goal for the next month and how you can support each other.",
+    "slots": [
+      "person"
+    ],
+    "size": "massive",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma",
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-099",
+    "template": "Take the lead on planning one social thing this month, even if it’s tiny, instead of waiting for someone else to plan.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "stamina",
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "friendship-100",
+    "template": "Choose 3 people you want in your long-term life and reach out to all 3 this week in a way that feels real, not surface-level.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma",
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "small_group",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  }
+]

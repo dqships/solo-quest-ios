@@ -1,0 +1,28 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "legal.privacy_policy": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "# Privacy Policy\nTemplate. Replace this text with your own privacy policy before you ship a build of Solo Quest XP.\n\n## Data on your device\nYour quests, stats, streaks, notes, and Adventure Log photos and videos are stored on your device. When iCloud is turned on, the app syncs this data to your private iCloud account with CloudKit.\n\n## Optional services\nEach service below runs only when its key or URL is set in Config/Secrets.xcconfig.\n* Clerk: sign-in and your account email.\n* RevenueCat: purchases and subscription status.\n* PostHog: app usage events for analytics.\n\n## Location\nIf you allow location access, the app uses your approximate location on your device to suggest nearby quests.\n\n## Contact\nsupport@example.com"
+          }
+        }
+      }
+    },
+    "legal.terms_of_service": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "# Terms of Service\nTemplate. Replace this text with your own terms before you ship a build of Solo Quest XP.\n\n## Use of the app\nSolo Quest XP gives you daily real-world quests and tracks your progress with XP, stats, and ranks. Do only the quests that are safe and legal for you.\n\n## Purchases\nSubscriptions and purchases, when set up, are handled by the App Store and RevenueCat.\n\n## No warranty\nThe app is provided \"as is\", without warranty of any kind.\n\n## Contact\nsupport@example.com"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

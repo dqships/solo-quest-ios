@@ -1,0 +1,1805 @@
+[
+  {
+    "id": "outdoors-sunrise-watch",
+    "template": "Wake up early and watch the sunrise from an outdoor location.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "morning",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-sunset-watch",
+    "template": "Find a good vantage point and watch the entire sunset outdoors.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "evening",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-stargazing-30-min",
+    "template": "Go stargazing for at least 30 minutes away from bright lights.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "reflection",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-identify-constellations",
+    "template": "Go outside at night and identify at least 3 constellations in the sky.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "reflection",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_nature",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-moonrise-watch",
+    "template": "Look up when the moon rises tonight and go outside to watch it.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-park-walk-30-min",
+    "template": "Walk through a park for 30 minutes, staying on different paths.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-park-bench-sit",
+    "template": "Sit on a park bench for 20 minutes and observe everything around you.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-feed-birds",
+    "template": "Bring seeds or bread to a park and spend time feeding the birds.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-watch-wildlife",
+    "template": "Find a spot in nature and quietly observe wildlife for 20 minutes.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "reflection",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_nature",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-identify-birds",
+    "template": "Go outside and try to identify at least 5 different bird species you see or hear.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "reflection",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-identify-trees",
+    "template": "Walk around and identify at least 5 different types of trees by their leaves or bark.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-identify-plants",
+    "template": "Find and identify 5 plants or flowers growing in your area.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-nature-photography",
+    "template": "Go outside and take 20 photos of interesting things in nature.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_nature",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-macro-photography",
+    "template": "Take close-up photos of small outdoor details: insects, leaves, textures.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-sketch-nature",
+    "template": "Sit outside and sketch something from nature for at least 20 minutes.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_nature",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-nature-journal",
+    "template": "Bring a notebook outside and write observations about nature for 15 minutes.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_nature",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-cloud-watching",
+    "template": "Lie on the grass and watch clouds for 15 minutes, finding shapes.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-barefoot-grass",
+    "template": "Walk barefoot on grass for at least 10 minutes.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-grounding-exercise",
+    "template": "Stand or sit directly on the earth (grass, sand, dirt) for 20 minutes.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-picnic-solo",
+    "template": "Pack a meal and eat it outside at a park or scenic spot.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-picnic-with-friend",
+    "template": "Plan and have an outdoor picnic with a friend.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-outdoor-coffee",
+    "template": "Take your morning coffee or tea outside and drink it there.",
+    "slots": [],
+    "size": "micro",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "cheap",
+    "timeOfDay": "morning",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-read-outside",
+    "template": "Read a book outside for at least 30 minutes.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "reflection",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-work-outside",
+    "template": "Take your laptop or work materials outside and work for 1 hour.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "reflection",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-phone-call-walking",
+    "template": "Take a phone call while walking outside for the entire duration.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-hike-new-trail",
+    "template": "Find and hike a trail you've never been on before.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "outdoor_nature",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-hike-2-hours",
+    "template": "Go on a 2-hour hike in nature.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "strength",
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "outdoor_nature",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-forest-bathing",
+    "template": "Practice forest bathing: walk slowly through trees, engaging all senses, for 30 minutes.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-nature-sounds",
+    "template": "Find a quiet outdoor spot and listen to nature sounds for 15 minutes, no music.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_nature",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-meditation-outside",
+    "template": "Meditate outside for 15 minutes, focusing on the outdoor environment.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-yoga-outside",
+    "template": "Do a yoga session outside in a park or your backyard.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina",
+      "resilience"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-workout-park",
+    "template": "Complete a full workout at an outdoor fitness park or playground.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-run-new-route",
+    "template": "Go for a run on a route you've never taken before.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-trail-run",
+    "template": "Run on a nature trail instead of pavement for at least 20 minutes.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "strength"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_nature",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-bike-trail",
+    "template": "Ride your bike on a dedicated trail for at least 30 minutes.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "strength"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_nature",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-bike-explore",
+    "template": "Bike to a part of your city or area you've never explored.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-swim-natural-water",
+    "template": "Swim in a lake, river, or ocean if safely accessible.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "outdoor_nature",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-kayak-canoe",
+    "template": "Go kayaking or canoeing for at least 30 minutes.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "strength"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-paddleboard",
+    "template": "Try stand-up paddleboarding for at least 20 minutes.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-fishing",
+    "template": "Go fishing for at least 1 hour, even if you don't catch anything.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-skip-rocks",
+    "template": "Find a body of water and skip rocks for 10 minutes.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-beach-walk",
+    "template": "Walk along a beach or shoreline for at least 30 minutes.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-collect-shells",
+    "template": "Walk a beach and collect interesting shells or stones.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-build-sandcastle",
+    "template": "Build a sandcastle or sand sculpture at a beach.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "reflection",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-climb-hill",
+    "template": "Find a hill in your area and climb to the top.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "strength"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-climb-tree",
+    "template": "Find a safe tree and climb it.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-explore-neighborhood",
+    "template": "Walk through your neighborhood taking only streets you've never walked on.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-urban-exploration",
+    "template": "Explore an area of your city you've never visited before on foot.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-find-hidden-gem",
+    "template": "Search for a hidden gem in your city: a park, viewpoint, or spot most people don't know.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "small_group",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-visit-landmark",
+    "template": "Visit a local landmark or monument you've never seen in person.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-botanical-garden",
+    "template": "Visit a botanical garden and spend at least 45 minutes exploring.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-farmers-market",
+    "template": "Visit an outdoor farmers market and buy at least one item.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-outdoor-festival",
+    "template": "Attend an outdoor festival, fair, or community event.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-outdoor-concert",
+    "template": "Attend an outdoor concert or live music performance.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "outdoors-street-performer-watch",
+    "template": "Find a street performer and watch their entire act.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "outdoors-play-catch",
+    "template": "Play catch with a ball or frisbee with someone for 20 minutes.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-fly-kite",
+    "template": "Fly a kite at a park or open field.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-play-outdoor-sport",
+    "template": "Play an outdoor sport: basketball, soccer, tennis, or volleyball.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "strength",
+      "charisma"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-shoot-hoops",
+    "template": "Find an outdoor basketball court and shoot hoops for 20 minutes.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "strength"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-outdoor-ping-pong",
+    "template": "Play ping pong at an outdoor public table.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "outdoors-disc-golf",
+    "template": "Play a round of disc golf at a local course.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-mini-golf",
+    "template": "Play a round of mini golf outdoors.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-geocaching",
+    "template": "Try geocaching: find at least one hidden cache using a GPS or app.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-scavenger-hunt",
+    "template": "Create a list of 10 outdoor items to find and search for all of them.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-plant-something",
+    "template": "Plant a flower, herb, or vegetable in a garden or pot outside.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-garden-work",
+    "template": "Spend 30 minutes doing yard work or gardening.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "strength"
+    ],
+    "category": "finance",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-pull-weeds",
+    "template": "Pull weeds from a garden or yard for 20 minutes.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "strength"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-water-plants",
+    "template": "Water all outdoor plants thoroughly and check on their health.",
+    "slots": [],
+    "size": "micro",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-wash-car-outside",
+    "template": "Wash a car by hand outside.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "strength"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-clean-outdoor-space",
+    "template": "Clean and organize your patio, balcony, or outdoor living space.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "home_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-grill-meal",
+    "template": "Cook a meal on an outdoor grill.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "reflection",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-campfire",
+    "template": "Build and enjoy a campfire or fire pit evening.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "evening",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-roast-marshmallows",
+    "template": "Roast marshmallows over a fire outdoors.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-camping-trip",
+    "template": "Go camping overnight, even if just in your backyard.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-sleep-outside",
+    "template": "Sleep outside under the stars for at least part of the night.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-hammock-time",
+    "template": "Set up a hammock outside and relax in it for 30 minutes.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-rain-walk",
+    "template": "Go for a 15-minute walk in light rain with appropriate gear.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-puddle-jumping",
+    "template": "Find puddles after rain and jump in them like you did as a kid.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-snow-walk",
+    "template": "Take a 20-minute walk in the snow.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-build-snowman",
+    "template": "Build a snowman or snow sculpture.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-snow-angel",
+    "template": "Make a snow angel in fresh snow.",
+    "slots": [],
+    "size": "micro",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-sledding",
+    "template": "Go sledding down a hill.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-ice-skating",
+    "template": "Go ice skating at an outdoor rink.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "strength"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-rollerblading",
+    "template": "Go rollerblading or roller skating outside for 20 minutes.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "strength"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-skateboarding",
+    "template": "Practice skateboarding outside for 20 minutes.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-scooter-ride",
+    "template": "Ride a scooter around your neighborhood for 20 minutes.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-walk-dog",
+    "template": "Take a dog for an extra-long walk of at least 30 minutes.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-dog-park",
+    "template": "Spend 30 minutes at a dog park, even if just observing the dogs.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-volunteer-cleanup",
+    "template": "Participate in a community outdoor cleanup or pick up litter for 20 minutes.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-playground-adult",
+    "template": "Visit a playground and use the equipment: swings, monkey bars, slides.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "strength"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-swing-set",
+    "template": "Swing on a swing set for at least 10 minutes.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-outdoor-art",
+    "template": "Create art outside: sidewalk chalk, nature sculpture, or land art.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-blow-bubbles",
+    "template": "Blow bubbles outside for 10 minutes and enjoy the simple pleasure.",
+    "slots": [],
+    "size": "micro",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-outdoor-chess",
+    "template": "Play chess or checkers at an outdoor public board.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "reflection",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "outdoors-viewpoint-visit",
+    "template": "Visit a scenic viewpoint or overlook in your area.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_nature",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-bridge-walk",
+    "template": "Walk across a pedestrian bridge and stop to enjoy the view.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-waterfall-visit",
+    "template": "Find and visit a waterfall in your region.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-river-creek-sit",
+    "template": "Find a river or creek and sit by it for 20 minutes listening to the water.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "reflection",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_nature",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "outdoors-rock-collecting",
+    "template": "Go outside and collect interesting rocks or stones.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "outdoors-sunrise-hike",
+    "template": "Go on an early morning hike timed to arrive at a viewpoint for sunrise.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "outdoor_nature",
+    "costLevel": "free",
+    "timeOfDay": "morning",
+    "comfortZone": "stretch"
+  }
+]

@@ -1,0 +1,1808 @@
+[
+  {
+    "id": "resilience-cold-shower-2-min",
+    "template": "Take a 2-minute cold shower without adjusting the temperature.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-cold-shower-5-min",
+    "template": "Take a 5-minute cold shower, breathing through the discomfort.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-end-shower-cold",
+    "template": "End your regular shower with 60 seconds of cold water.",
+    "slots": [],
+    "size": "micro",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-ice-bath-attempt",
+    "template": "Fill a tub with cold water and ice, then sit in it for as long as you can handle.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "resilience-eat-alone-restaurant",
+    "template": "Go to a sit-down restaurant alone and enjoy a full meal without your phone.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "self_care",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "resilience-movie-alone",
+    "template": "Go see a movie at a theater completely by yourself.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "self_care",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "resilience-concert-alone",
+    "template": "Attend a concert, show, or live event by yourself.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "self_care",
+    "socialIntensity": "solo",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "resilience-bar-alone",
+    "template": "Go to a bar alone, sit at the bar, and stay for at least 30 minutes.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "challenge",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "resilience-coffee-shop-no-phone",
+    "template": "Sit in a coffee shop for 30 minutes without looking at your phone once.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-digital-detox-2-hours",
+    "template": "Put your phone in another room and go 2 hours without checking it.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-digital-detox-half-day",
+    "template": "Go 6 hours without using your phone or social media.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "resilience-digital-detox-full-day",
+    "template": "Spend an entire day without social media or unnecessary phone use.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "resilience-no-complaining-day",
+    "template": "Go an entire day without complaining about anything out loud.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "resilience-no-excuses-day",
+    "template": "For one full day, don't make any excuses. Own every action and decision.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "resilience-say-yes-day",
+    "template": "Say yes to every reasonable opportunity or invitation that comes your way today.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "luck",
+      "charisma"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "resilience-wake-up-early",
+    "template": "Set your alarm 1 hour earlier than usual and get up on the first alarm.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-wake-up-5am",
+    "template": "Wake up at 5 AM and start your day productively.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-no-snooze-week",
+    "template": "Don't hit snooze once this entire week. Get up on the first alarm every day.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "resilience-make-your-bed",
+    "template": "Make your bed immediately upon waking up, no exceptions.",
+    "slots": [],
+    "size": "micro",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-ask-for-discount",
+    "template": "Ask for a discount at a store or restaurant, even if there's no sale.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-negotiate-price",
+    "template": "Try to negotiate a better price on something you're buying.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "finance",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "resilience-ask-for-upgrade",
+    "template": "Ask for a free upgrade at a hotel, airline, or rental car counter.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma",
+      "luck"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-return-something",
+    "template": "Return an item to a store that you've been putting off returning.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-send-food-back",
+    "template": "If your order is wrong at a restaurant, politely send it back.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-speak-up-meeting",
+    "template": "Speak up and share an idea in a meeting or group setting.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma",
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "small_group",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-ask-question-public",
+    "template": "Ask a question in a public setting like a class, talk, or meeting.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "resilience-volunteer-to-present",
+    "template": "Volunteer to present or speak in front of a group.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "challenge",
+    "socialIntensity": "small_group",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "resilience-open-mic-performance",
+    "template": "Sign up for and perform at an open mic night.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "resilience-karaoke-solo",
+    "template": "Sing a karaoke song by yourself in front of others.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "resilience-dance-in-public",
+    "template": "Dance for at least 30 seconds in a public place where people can see you.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "small_group",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "resilience-sing-in-public",
+    "template": "Sing out loud for 30 seconds in a public place.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "resilience-wear-bold-outfit",
+    "template": "Wear something bold or attention-grabbing that's outside your comfort zone.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "resilience-different-hairstyle",
+    "template": "Try a noticeably different hairstyle and wear it out in public.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "resilience-admit-mistake",
+    "template": "Admit a mistake you made to someone affected by it and apologize sincerely.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-have-difficult-conversation",
+    "template": "Have a difficult conversation you've been avoiding with someone.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "resilience-set-boundary",
+    "template": "Set a clear boundary with someone about something that bothers you.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-say-no",
+    "template": "Say no to a request you would normally reluctantly agree to.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "resilience-ask-for-help",
+    "template": "Ask someone for help with something you've been struggling with alone.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "resilience-share-vulnerability",
+    "template": "Share something vulnerable about yourself with someone you trust.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-post-unfiltered-photo",
+    "template": "Post a photo of yourself on social media without any filters or editing.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-share-opinion-online",
+    "template": "Share a genuine opinion online that you've been hesitant to express.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-fast-from-food",
+    "template": "Fast from food for 16 hours, drinking only water.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "resilience-skip-dessert",
+    "template": "Skip dessert or a treat you would normally have today.",
+    "slots": [],
+    "size": "micro",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-no-caffeine-day",
+    "template": "Go an entire day without caffeine.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-eat-something-disliked",
+    "template": "Eat a food you normally avoid or dislike.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-meditation-15-min",
+    "template": "Meditate for 15 minutes without giving up or checking the time.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-meditation-30-min",
+    "template": "Sit in meditation for 30 minutes without moving.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-wait-without-phone",
+    "template": "Wait in a line or waiting room for at least 15 minutes without looking at your phone.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-sit-in-silence",
+    "template": "Sit in complete silence for 20 minutes with no distractions.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-boredom-tolerance",
+    "template": "Do nothing for 15 minutes. No phone, no reading, no music. Just sit.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-delay-gratification",
+    "template": "When you want to buy something impulsively, wait 24 hours before purchasing.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "errand",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-finish-something-hard",
+    "template": "Finish a task you've been avoiding because it's difficult or boring.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-work-past-tired",
+    "template": "When you feel like quitting a task, push through for 15 more minutes.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-embrace-discomfort",
+    "template": "Notice when you're uncomfortable today and stay in that feeling instead of escaping it.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-face-fear-small",
+    "template": "Do one small thing today that you're afraid of or nervous about.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-try-something-new-alone",
+    "template": "Try a new activity or class completely by yourself.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "self_care",
+    "socialIntensity": "solo",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "resilience-talk-to-stranger",
+    "template": "Start a genuine conversation with a complete stranger.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "resilience-introduce-yourself",
+    "template": "Introduce yourself to someone new in a social setting.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "resilience-make-first-move",
+    "template": "Be the first to reach out and make plans with someone.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-sit-front-row",
+    "template": "Sit in the front row at a class, talk, or event.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-maintain-eye-contact",
+    "template": "Maintain steady eye contact during your next 3 conversations.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "resilience-mirror-eye-contact",
+    "template": "Look at yourself in the mirror and maintain eye contact for 3 minutes.",
+    "slots": [],
+    "size": "micro",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-record-yourself-speaking",
+    "template": "Record yourself talking about a topic for 3 minutes and watch it back.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-post-video-of-self",
+    "template": "Record and post a video of yourself on social media.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-voice-message-instead-text",
+    "template": "Send a voice message instead of texting 5 times today.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-call-instead-text",
+    "template": "Call someone instead of texting them when you need to communicate.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-leave-voicemail",
+    "template": "Leave a voicemail instead of hanging up when someone doesn't answer.",
+    "slots": [],
+    "size": "micro",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-accept-compliment-gracefully",
+    "template": "Accept the next compliment you receive with just 'thank you' - no deflecting.",
+    "slots": [],
+    "size": "micro",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-accept-criticism",
+    "template": "Accept criticism without defending yourself or making excuses.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "self_care",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-ask-for-feedback",
+    "template": "Ask someone for honest feedback about something you did.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma",
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "resilience-share-work-publicly",
+    "template": "Share something you created with others, even if it's not perfect.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-submit-application",
+    "template": "Submit an application for something you've been hesitant about.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "resilience-reach-out-opportunity",
+    "template": "Reach out about an opportunity even if you feel underqualified.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-pitch-idea",
+    "template": "Pitch an idea you have to someone who could help make it happen.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma",
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "resilience-ask-for-raise",
+    "template": "Ask for a raise, promotion, or better terms in a professional setting.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "resilience-walk-in-rain",
+    "template": "Walk in the rain for 10 minutes without rushing to shelter.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-cold-weather-walk",
+    "template": "Go for a walk in cold weather dressed appropriately but feeling the chill.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-skip-elevator",
+    "template": "Take the stairs every time today, no matter how many flights.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina",
+      "strength"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-park-far-away",
+    "template": "Intentionally park far from every entrance today and walk.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-plank-until-failure",
+    "template": "Hold a plank until complete muscle failure, not stopping early.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "strength"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-one-more-rep",
+    "template": "During every set of exercise today, do one more rep than you think you can.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "strength"
+    ],
+    "category": "reflection",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-workout-when-tired",
+    "template": "Exercise even though you don't feel like it today.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-morning-pages",
+    "template": "Write 3 pages by hand first thing in the morning, stream of consciousness.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "morning",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-journal-fears",
+    "template": "Write about your biggest fears for 15 minutes without stopping.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-journal-failures",
+    "template": "Write about your past failures and what you learned from them.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-gratitude-list-20",
+    "template": "Write down 20 things you're grateful for, pushing past the obvious ones.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-write-unsent-letter",
+    "template": "Write a letter to someone about something you've never told them.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "creative",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "resilience-delete-social-app",
+    "template": "Delete a social media app from your phone for at least 24 hours.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-no-news-day",
+    "template": "Go an entire day without checking the news or current events.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "resilience-no-entertainment-evening",
+    "template": "Spend an evening without TV, streaming, or passive entertainment.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "finance",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "evening",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-silence-drive",
+    "template": "Drive somewhere in complete silence - no music, podcasts, or calls.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-eat-slowly",
+    "template": "Eat an entire meal slowly, taking at least 20 minutes, with no distractions.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-clean-uncomfortable-space",
+    "template": "Clean or organize a space you've been avoiding because it overwhelms you.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "resilience-confront-clutter",
+    "template": "Go through items that have emotional attachment and decide what to let go.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "resilience-uncomfortable-truth",
+    "template": "Acknowledge one uncomfortable truth about yourself in writing.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "self_care",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-forgive-someone",
+    "template": "Write about forgiving someone who wronged you, even just for yourself.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "creative",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "resilience-forgive-yourself",
+    "template": "Write a letter forgiving yourself for a past mistake.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-public-speaking-practice",
+    "template": "Practice a 3-minute speech out loud, standing up, as if presenting to an audience.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "resilience-try-new-food",
+    "template": "Order something you've never tried before at a restaurant and finish it.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "resilience-hold-space-emotions",
+    "template": "When a negative emotion arises today, sit with it for 5 minutes without distracting yourself.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "self_care",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  }
+]

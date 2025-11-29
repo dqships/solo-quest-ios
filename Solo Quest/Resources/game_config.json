@@ -1,0 +1,101 @@
+{
+  "stats": [
+    "luck",
+    "charisma",
+    "strength",
+    "stamina",
+    "resilience",
+    "intelligence"
+  ],
+  "dailyQuestRules": {
+    "questsPerDay": 3,
+    "requiredAttempts": 1,
+    "applySkipPenalty": true
+  },
+  "sideQuestRules": {
+    "bundleSize": 3,
+    "applySkipPenalty": false,
+    "applyFailPenalty": true,
+    "maxBundlesPerDay": 10
+  },
+  "questSizes": {
+    "micro": 50,
+    "small": 100,
+    "medium": 150,
+    "big": 200,
+    "massive": 250
+  },
+  "questSizeDurations": {
+    "micro": {
+      "minMinutes": 5,
+      "maxMinutes": 10,
+      "defaultTimerMinutes": 60
+    },
+    "small": {
+      "minMinutes": 10,
+      "maxMinutes": 15,
+      "defaultTimerMinutes": 60
+    },
+    "medium": {
+      "minMinutes": 20,
+      "maxMinutes": 30,
+      "defaultTimerMinutes": 120
+    },
+    "big": {
+      "minMinutes": 30,
+      "maxMinutes": 60,
+      "defaultTimerMinutes": 240
+    },
+    "massive": {
+      "minMinutes": 120,
+      "maxMinutes": 720,
+      "defaultTimerMinutes": 720
+    }
+  },
+  "timerConfig": {
+    "completionUnlockSeconds": 60,
+    "autoFailOnExpire": true
+  },
+  "levelConfig": {
+    "maxLevel": 100,
+    "baseXPPerLevel": 100,
+    "xpExponent": 1.06
+  },
+  "ranks": [
+    {
+      "id": "E",
+      "minLevel": 1,
+      "maxLevel": 19
+    },
+    {
+      "id": "D",
+      "minLevel": 20,
+      "maxLevel": 39
+    },
+    {
+      "id": "C",
+      "minLevel": 40,
+      "maxLevel": 58
+    },
+    {
+      "id": "B",
+      "minLevel": 59,
+      "maxLevel": 76
+    },
+    {
+      "id": "A",
+      "minLevel": 77,
+      "maxLevel": 92
+    },
+    {
+      "id": "S",
+      "minLevel": 93,
+      "maxLevel": 100
+    }
+  ],
+  "penalties": {
+    "dailySkipPenaltyRate": 0.5,
+    "questFailPenaltyRate": 0.5,
+    "minTotalXP": 0
+  }
+}

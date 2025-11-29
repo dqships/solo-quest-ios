@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# General editor artifacts
+*.swp
+*.swo
+*.orig
+*.bak
+*~
+
+# Xcode / Swift
+DerivedData/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+xcuserdata/
+*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.dSYM
+*.dSYM.zip
+
+# Project-specific secrets
+Config/Secrets.xcconfig
+secrets.xcconfig
+*.xcconfig.local
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Simulator logs
+*.hmap
+*.ipa
+
+# Bundle output
+build/

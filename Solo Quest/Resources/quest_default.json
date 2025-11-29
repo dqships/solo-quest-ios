@@ -1,0 +1,4052 @@
+[
+  {
+    "id": "pet-an-animal",
+    "template": "Pet an animal (cannot be your own).",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "change-your-hair",
+    "template": "Change your hair.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "clean-your-whole-house",
+    "template": "Clean your whole house.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "home_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "clean-room-in-parents-house",
+    "template": "Clean one room in your parents' house.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "home_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "go-to-mall-buy-outfit",
+    "template": "Go to the mall to buy an outfit.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "errand",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "go-to-mall-talk-dont-buy",
+    "template": "Go to the mall, interact with shopkeepers, don't buy anything.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "errand",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "compliment-someone-you-dont-know",
+    "template": "Compliment someone you don't know.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck",
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "introduce-yourself-to-somebody-new",
+    "template": "Introduce yourself to somebody new.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "ask-someone-for-a-date",
+    "template": "Ask someone for a date.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "flirt-with-someone-you-might-never-see-again",
+    "template": "Flirt with someone you might never see again.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "walk-around-your-neighborhood",
+    "template": "Go for a walk around your neighborhood.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "ride-your-bike-30-minutes",
+    "template": "Ride your bike for 30 minutes.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "strength"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "meet-3-friends-for-drinks",
+    "template": "Meet with 3 friends for drinks.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "small_group",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "go-to-the-park",
+    "template": "Go to the park.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "visit-library-read-in-public",
+    "template": "Visit your local library and read a book in a public area.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "write-song-about-topic",
+    "template": "Write a song about [topic].",
+    "slots": [
+      "topic"
+    ],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "write-poem-about-topic",
+    "template": "Write a poem about [topic].",
+    "slots": [
+      "topic"
+    ],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "record-video-about-topic-post",
+    "template": "Record a video about [topic] and post it on social media.",
+    "slots": [
+      "topic"
+    ],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "do-latest-tiktok-trend",
+    "template": "Do the latest TikTok trend and share it.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "pizza-with-person",
+    "template": "Grab a slice of pizza with [person].",
+    "slots": [
+      "person"
+    ],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "go-out-to-dinner-alone",
+    "template": "Go out to dinner alone.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "moderate",
+    "timeOfDay": "evening",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "tip-cashier-25",
+    "template": "Go to a store and tip the cashier 25%.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "coffee-shop-new-drink",
+    "template": "Go to a coffee shop you've never been to and order a drink you've never tried.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "thrift-store-style-item",
+    "template": "Go to a thrift store and buy one item under $10 that you have to style an outfit around.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "errand",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "park-bench-character-ideas",
+    "template": "Visit a park, sit on a bench, and people-watch while you write 10 one-sentence character ideas based on strangers you see.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "reflection",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "bookstore-random-aisle-third-book",
+    "template": "Go to a bookstore or library, pick a random aisle, and read the first chapter of the third book you touch.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "restaurant-observe-without-phone",
+    "template": "Go to a restaurant and sit at the bar or a table alone, no phone, and finish your entire meal just observing and thinking.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "reflection",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "different-route-home-photo",
+    "template": "Take a different route home than usual, walking or driving, and stop to take a picture of the most interesting thing you notice.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "home_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "anonymous-positive-notes",
+    "template": "Leave three anonymous positive notes (like You got this, Proud of you, etc.) in public places for strangers to find.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck",
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "ask-stranger-about-style-item",
+    "template": "Ask a stranger whose style you like where they got one specific item they're wearing.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck",
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "public-place-one-take-video-topic",
+    "template": "Go to a public place such as a mall, park, or plaza and record a short video about [topic] in one take, then post it without re-recording.",
+    "slots": [
+      "topic"
+    ],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "local-live-music-or-open-mic",
+    "template": "Find a local spot with live music, comedy, or open mic and stay for at least one full set, even if you go by yourself.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "free-community-class-or-workshop",
+    "template": "Attend a free community class or workshop in your city.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "errand",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "text-or-call-6-months",
+    "template": "Text or call someone you haven't spoken to in at least 6 months.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "museum-or-art-gallery-no-phone",
+    "template": "Go to a museum or art gallery and spend at least 30 minutes with no phone out.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "cook-new-recipe-plate-it-nice",
+    "template": "Cook a new recipe from scratch and plate it like you're serving a guest.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "reflection",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "ask-barista-favorite-order-it",
+    "template": "Ask a barista or server what their favorite item on the menu is and order it.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "go-to-movies-alone-no-phone",
+    "template": "Go to the movies alone, watch a full film, and don't check your phone once.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "buy-snack-for-thankless-job",
+    "template": "Buy a small snack or drink and give it to someone working a thankless job such as a janitor, security guard, or cashier.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "sketch-in-busy-public-place",
+    "template": "Sit in a busy public place and sketch what you see for 20 minutes, even if you feel like you can't draw.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "evening-no-social-media-journal",
+    "template": "Spend one evening with no social media and write one full page about how you actually feel about life right now.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "evening",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "local-event-or-meetup-45-min",
+    "template": "Sign up for a local event or meetup and stay for at least 45 minutes.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "try-new-physical-activity",
+    "template": "Try a new type of physical activity such as a yoga class, boxing gym, or dance class at least once.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "write-10-new-ideas",
+    "template": "Write down 10 new ideas for businesses, projects, or songs in one sitting without judging them.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "reflection",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "night-walk-focus-on-senses",
+    "template": "Take a night walk for at least 20 minutes and focus only on the sounds and lights around you.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "hold-door-open-for-5-people",
+    "template": "Hold the door open for 5 people in a row and make eye contact with each one.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "learn-magic-or-bar-trick",
+    "template": "Learn a simple magic trick or bar trick and perform it for at least one person in real life.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "visit-local-small-business-buy-one-thing",
+    "template": "Visit a local small business and buy one thing you don't normally buy.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "full-day-without-social-media",
+    "template": "Go a full day without social media and write a paragraph about how it felt.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "public-transport-somewhere-new",
+    "template": "Take public transportation such as a bus or train to somewhere you don't usually go and walk around for 30 minutes.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "donate-bag-of-clothes-or-items",
+    "template": "Donate at least one bag of clothes or items you don't use anymore.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "errand",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "ask-family-childhood-story",
+    "template": "Ask a family member to tell you a story from their childhood you've never heard before.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "try-new-restaurant-new-dish",
+    "template": "Try a new restaurant and order something you've never had before.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "sit-outside-at-night-look-at-sky",
+    "template": "Sit outside at night for 20 minutes and just look at the sky with no phone.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "reflection",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_nature",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "buy-greeting-card-write-note",
+    "template": "Buy a greeting card and write a genuine note to someone you appreciate, then give or mail it.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "smile-at-5-strangers",
+    "template": "Go to a public place and intentionally smile at 5 strangers.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck",
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "redesign-corner-of-living-space",
+    "template": "Spend 1 hour rearranging or redesigning one corner of your living space to feel more like you.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "home_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "scenic-spot-mini-photoshoot",
+    "template": "Find a local scenic spot such as an overlook, park, or river and take 5 photos like you're doing a mini photoshoot.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_nature",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "listen-to-new-album-no-multitask",
+    "template": "Listen to an album you've never heard before from start to finish with no multitasking.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "ask-older-person-for-life-advice",
+    "template": "Ask someone older than you for one piece of life advice and write it down.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "read-physical-book-or-magazine",
+    "template": "Go to a café or park and spend 30 minutes reading a physical book or magazine.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "new-snack-spot-leave-kind-review",
+    "template": "Try a new coffee, tea, or snack spot and leave a kind review online afterward.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "buy-three-new-fruits-or-snacks",
+    "template": "Go to a grocery store and buy three fruits or snacks you've never tried before.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "errand",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "write-20-bucket-list-ideas",
+    "template": "Sit in a café and write down 20 ideas for things you want to do before you die.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "reflection",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "ask-stranger-for-restaurant-recommendation",
+    "template": "Ask a stranger for a restaurant recommendation and write it down, with bonus points if you actually go.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "outfit-outside-your-normal-style",
+    "template": "Wear an outfit that's slightly outside your normal style and go out in public for at least an hour.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "errand",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "visit-playground-at-night-swing",
+    "template": "Visit a playground at night if it's safe and sit on a swing for 10 minutes thinking about your younger self.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "letter-to-future-self",
+    "template": "Write a handwritten letter to your future self and seal it to open in 1 year.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "reflection",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "sit-in-hotel-lobby-people-watch",
+    "template": "Walk into a hotel lobby like you belong there and sit for 15 minutes people-watching.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "small_group",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "buy-small-plant-and-name-it",
+    "template": "Buy a small plant and name it, then put it somewhere visible in your home.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "errand",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "home_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "photo-of-yourself-main-character",
+    "template": "Take a photo of yourself somewhere outside that makes you feel powerful or like the main character.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "self_care",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "short-conversation-with-someone-alone",
+    "template": "Go to a public place and strike up a short conversation with someone who is also alone.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "research-new-country-save-photos",
+    "template": "Spend 30 minutes researching a country you've never thought about visiting and save 3 photos of it.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "finance",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "solo-album-listening-session",
+    "template": "Do a solo album listening session in your room with the lights low, one album on, and no phone, just listening.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "reflection",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "night",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "full-day-saying-yes",
+    "template": "Go a full day saying yes to every reasonable invitation or opportunity that doesn't go against your values.",
+    "slots": [],
+    "size": "massive",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "marathon_60_plus",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "mural-or-wall-creative-self-timer-photo",
+    "template": "Find a local mural or interesting wall and take a creative self-timer photo in front of it.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "ask-dream-job-or-dream-life",
+    "template": "Ask someone what their dream job or dream life looks like and really listen to their answer.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "try-on-one-thing-high-end-store",
+    "template": "Walk into a high-end store you normally wouldn't and try on one thing with no obligation to buy.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "expensive",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "compliment-man-and-woman-strangers",
+    "template": "Give a genuine, specific compliment to a man you don't know, and give a genuine, specific compliment to a woman you don't know, respectfully.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck",
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "organize-phone-20-minutes",
+    "template": "Spend 20 minutes organizing your phone: delete unused apps, change your wallpaper, and tidy your home screen.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "finance",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "home_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "voice-note-about-fear-or-insecurity",
+    "template": "Pick one fear or insecurity you have and talk about it out loud in a voice note just for yourself, then listen back once.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "one-page-journal-about-topic",
+    "template": "Write a one-page journal entry about [topic] and keep it somewhere you'll see again.",
+    "slots": [
+      "topic"
+    ],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "reflection",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "sixty-second-rant-or-love-letter-about-topic",
+    "template": "Voice-record a 60-second rant or love letter about [topic] and listen back once.",
+    "slots": [
+      "topic"
+    ],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "reflection",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "walk-and-think-about-topic",
+    "template": "Go on a walk and think only about [topic] for 10 minutes, then write 5 bullet points about what came up.",
+    "slots": [
+      "topic"
+    ],
+    "size": "medium",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "find-quote-about-topic-send-to-person",
+    "template": "Find a quote about [topic] online and send it to [person] with one sentence about why you chose it.",
+    "slots": [
+      "topic",
+      "person"
+    ],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "call-person-about-topic",
+    "template": "Call [person] and ask them for their honest opinion on [topic] without debating them.",
+    "slots": [
+      "person",
+      "topic"
+    ],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "text-person-how-they-influenced-topic",
+    "template": "Send a text to [person] telling them how they influenced your thinking about [topic].",
+    "slots": [
+      "person",
+      "topic"
+    ],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "ask-person-type-how-they-feel-about-topic",
+    "template": "Ask [person type], such as an older neighbor, coworker, or barista, how they feel about [topic] and write down their answer.",
+    "slots": [
+      "personType",
+      "topic"
+    ],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "private-letter-to-person-about-topic",
+    "template": "Write a private letter to [person] about [topic] and decide whether or not to send it later.",
+    "slots": [
+      "person",
+      "topic"
+    ],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "reflection",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "playlist-about-topic-share-with-person",
+    "template": "Make a 3 to 5 song playlist that feels like [topic] and share it with [person].",
+    "slots": [
+      "topic",
+      "person"
+    ],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "creative",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "ask-person-type-what-topic-means",
+    "template": "Ask [person type] who inspires you, such as a mentor, creative friend, or hustler friend, what [topic] means to them.",
+    "slots": [
+      "personType",
+      "topic"
+    ],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "doodle-logo-for-topic",
+    "template": "Draw or doodle a rough logo or symbol for [topic] and pin it where you'll see it daily.",
+    "slots": [
+      "topic"
+    ],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "brainstorm-session-with-person-about-topic",
+    "template": "Invite [person] to do a 10-minute brainstorm session with you about [topic], in person or on a call.",
+    "slots": [
+      "person",
+      "topic"
+    ],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "selfie-video-explaining-topic-to-future-self",
+    "template": "Record a selfie video explaining [topic] to your future self and save it in a special album.",
+    "slots": [
+      "topic"
+    ],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "ask-person-younger-than-you-about-topic",
+    "template": "Ask [person younger than you] how they think about [topic] and what they expect in 10 years.",
+    "slots": [
+      "person",
+      "topic"
+    ],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "ask-person-older-than-you-about-topic",
+    "template": "Ask [person older than you] what they wish they knew earlier about [topic].",
+    "slots": [
+      "person",
+      "topic"
+    ],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "promises-to-yourself-about-topic-tell-person",
+    "template": "Write down three promises to yourself about [topic] and tell [person] so they can hold you to it.",
+    "slots": [
+      "topic",
+      "person"
+    ],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "reflection",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "compliment-stranger-and-learn-about-them",
+    "template": "Compliment a stranger and learn something about them.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck",
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "climb-a-tree",
+    "template": "Climb a tree.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "fifteen-push-ups",
+    "template": "Do 15 push ups.",
+    "slots": [],
+    "size": "micro",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "ten-minute-bodyweight-workout",
+    "template": "Do a 10 minute bodyweight workout: squats, push ups, and lunges with minimal breaks.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "wall-sit-challenge",
+    "template": "Hold a wall sit for as long as you can, rest, then try to beat your time once more.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "plank-hold-challenge",
+    "template": "Hold a plank for as long as you can, rest, then do one more round.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "stairs-instead-of-elevator",
+    "template": "Find a set of stairs and walk up and down for 10 minutes without using an elevator.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "carry-heavy-groceries",
+    "template": "Do one grocery trip where you carry your bags by hand for at least 5 minutes without stopping.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "errand",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "slow-controlled-squats",
+    "template": "Do 3 sets of 10 slow, controlled squats, focusing on form and balance.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "pushup-ladder",
+    "template": "Do a pushup ladder: 3 push ups, rest, 4 push ups, rest, keep adding 1 rep until you can’t complete a set.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "backpack-weight-walk",
+    "template": "Fill a backpack with books or items and go for a 15 minute walk wearing it.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "glute-bridge-sets",
+    "template": "Do 3 sets of 15 glute bridges, pausing for a second at the top of each rep.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "calf-raise-session",
+    "template": "Do 3 sets of 20 standing calf raises on a step or curb.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "household-item-deadlifts",
+    "template": "Pick up a safe, moderately heavy object from the floor with good form for 3 sets of 10 reps.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "doorframe-row",
+    "template": "Use a sturdy doorframe or rail to do 3 sets of 8 to 12 bodyweight rows.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "single-leg-balance-and-reach",
+    "template": "Stand on one leg and reach toward the floor 10 times, then switch legs and repeat.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "light-dumbbell-or-water-jug-circuit",
+    "template": "Use dumbbells or filled water jugs for 3 rounds of curls, shoulder presses, and rows.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "five-burpee-bursts",
+    "template": "Do 5 burpees, rest, and repeat for a total of 5 rounds.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "chair-squat-and-stand",
+    "template": "Sit down and stand up from a chair 25 times without using your hands.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "farmer-carry-challenge",
+    "template": "Carry something heavy in each hand, like bags or weights, and walk for 2 minutes without setting them down.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "push-pull-day",
+    "template": "Choose one pushing exercise and one pulling exercise and do 3 working sets of each.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "thirty-minute-strength-focused-walk",
+    "template": "Go for a 30 minute walk where you intentionally power walk hills or inclines when you find them.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "stretch-and-strength-combo",
+    "template": "Spend 10 minutes doing basic stretches, then 10 minutes doing strength moves like squats, lunges, and push ups.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Ask-employee-about-favorite-item",
+    "template": "Go to a grocery store and ask an employee what their favorite item is, then buy it and try it later.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck",
+      "resilience"
+    ],
+    "category": "errand",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "Walk-every-main-path-in-local-park",
+    "template": "Visit a local park and walk every main path until you've seen the whole park.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Write-five-things-you-appreciate-about-your-current-life",
+    "template": "Sit in a café and write five things you appreciate about your current life in a notebook.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Text-three-different-people-and-start-a-genuine-non-surface-level-conversation-with-each",
+    "template": "Text three different people and start a genuine non-surface level conversation with each.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "small_group",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "Spend-10-minutes-just-listening-to-the-sounds-around-you-with-no-phone",
+    "template": "Go somewhere busy and spend 10 minutes just listening to the sounds around you with no phone.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "reflection",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Spend-15-minutes-stretching-every-major-muscle-group-slowly-and-intentionally",
+    "template": "Spend 15 minutes stretching every major muscle group slowly and intentionally.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "strength"
+    ],
+    "category": "self_care",
+    "socialIntensity": "small_group",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Record-a-one-minute-video-pep-talk-to-your-future-self-and-save-it-privately",
+    "template": "Record a one-minute video pep talk to your future self and save it privately.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Walk-to-a-place-you-usually-drive-to-and-notice-what-you-see-differently-along-the-way",
+    "template": "Walk to a place you usually drive to and notice what you see differently along the way.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "Go-to-a-clothing-store-and-try-on-an-outfit-that-is-completely-outside-your-usual-style",
+    "template": "Go to a clothing store and try on an outfit that is completely outside your usual style.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "errand",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "Spend-20-minutes-cleaning-or-organizing-a-small-area-you-usually-ignore",
+    "template": "Spend 20 minutes cleaning or organizing a small area you usually ignore.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Pick-one-creative-idea-youve-been-avoiding-and-work-on-it-for-25-minutes-with-no-distractions",
+    "template": "Pick one creative idea you've been avoiding and work on it for 25 minutes with no distractions.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Go-outside-at-sunrise-or-sunset-and-stand-still-for-10-minutes-just-watching-the-sky",
+    "template": "Go outside at sunrise or sunset and stand still for 10 minutes just watching the sky.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "reflection",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_nature",
+    "costLevel": "free",
+    "timeOfDay": "morning",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "Invite-person-to-join-you-for-a-walk-or-coffee-and-talk-about-something-real",
+    "template": "Invite [person] to join you for a walk or coffee and talk about something real.",
+    "slots": [
+      "person"
+    ],
+    "size": "medium",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Write-down-a-fear-you-have-then-list-10-small-actions-you-could-take-related-to-it",
+    "template": "Write down a fear you have, then list 10 small actions you could take related to it.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "reflection",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Go-to-a-local-community-space-such-as-a-library-rec-center-or-church-and-stay-for-20-minutes-just-observing",
+    "template": "Go to a local community space such as a library, rec center, or church and stay for 20 minutes just observing.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Do-a-10-minute-walk-where-every-time-you-see-a-new-color-you-name-it-out-loud",
+    "template": "Do a 10 minute walk where every time you see a new color, you name it out loud.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "Ask-person-what-they-think-your-hidden-strengths-are-and-write-down-what-they-say",
+    "template": "Ask [person] what they think your hidden strengths are and write down what they say.",
+    "slots": [
+      "person"
+    ],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Spend-15-minutes-researching-a-skill-you-want-to-learn-this-year-and-write-5-first-steps",
+    "template": "Spend 15 minutes researching a skill you want to learn this year and write 5 first steps.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Put-on-a-song-that-makes-you-feel-powerful-and-dance-full-out-until-the-song-ends",
+    "template": "Put on a song that makes you feel powerful and dance full out until the song ends.",
+    "slots": [],
+    "size": "micro",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Go-to-a-quiet-place-and-meditate-on-your-breath-for-7-minutes-counting-each-exhale",
+    "template": "Go to a quiet place and meditate on your breath for 7 minutes, counting each exhale.",
+    "slots": [],
+    "size": "micro",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Buy-a-snack-or-drink-for-someone-working-a-late-or-early-shift-and-thank-them-for-their-work",
+    "template": "Buy a snack or drink for someone working a late or early shift and thank them for their work.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Write-a-list-of-20-things-you-are-curious-about-no-matter-how-random",
+    "template": "Write a list of 20 things you are curious about, no matter how random.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Spend-15-minutes-intentionally-tidying-your-appearance-as-if-preparing-for-an-important-meeting",
+    "template": "Spend 15 minutes intentionally tidying your appearance as if preparing for an important meeting.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Take-a-25-minute-walk-where-you-think-only-about-topic-and-no-other-subject",
+    "template": "Take a 25 minute walk where you think only about [topic] and no other subject.",
+    "slots": [
+      "topic"
+    ],
+    "size": "medium",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Write-10-different-possible-futures-for-yourself-in-one-sentence-each",
+    "template": "Write 10 different possible futures for yourself in one sentence each.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "Go-somewhere-with-a-mirror-and-practice-holding-eye-contact-with-yourself-for-3-minutes",
+    "template": "Go somewhere with a mirror and practice holding eye contact with yourself for 3 minutes.",
+    "slots": [],
+    "size": "micro",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Journal-freely-for-15-minutes-about-why-topic-matters-to-you-right-now",
+    "template": "Journal freely for 15 minutes about why [topic] matters to you right now.",
+    "slots": [
+      "topic"
+    ],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "reflection",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Ask-person-to-tell-you-a-story-from-their-life-youve-never-heard-before",
+    "template": "Ask [person] to tell you a story from their life you've never heard before.",
+    "slots": [
+      "person"
+    ],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "Do-a-5-minute-cold-exposure-such-as-a-cold-shower-or-stepping-outside-underdressed-safely",
+    "template": "Do a 5 minute cold exposure such as a cold shower or stepping outside underdressed, safely.",
+    "slots": [],
+    "size": "micro",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "Find-a-staircase-and-go-up-and-down-it-continuously-for-12-minutes",
+    "template": "Find a staircase and go up and down it continuously for 12 minutes.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "strength"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Spend-20-minutes-without-your-phone-in-a-public-place-just-noticing-micro-interactions-around-you",
+    "template": "Spend 20 minutes without your phone in a public place, just noticing micro-interactions around you.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "finance",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "Write-down-15-things-you-like-about-your-current-self-even-if-they-feel-small",
+    "template": "Write down 15 things you like about your current self, even if they feel small.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "self_care",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Clean-out-and-reorganize-one-drawer-shelf-or-digital-folder-completely",
+    "template": "Clean out and reorganize one drawer, shelf, or digital folder completely.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Go-to-a-store-and-ask-for-a-genuine-recommendation-on-a-product-then-consider-buying-it",
+    "template": "Go to a store and ask for a genuine recommendation on a product, then consider buying it.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "errand",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Invite-person-to-share-one-thing-they-are-struggling-with-and-just-listen-without-fixing",
+    "template": "Invite [person] to share one thing they are struggling with and just listen without fixing.",
+    "slots": [
+      "person"
+    ],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Create-a-3-song-playlist-for-a-specific-mood-and-listen-to-it-start-to-finish-with-no-distractions",
+    "template": "Create a 3 song playlist for a specific mood and listen to it start to finish with no distractions.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Spend-20-minutes-learning-about-a-country-culture-or-city-you-know-almost-nothing-about",
+    "template": "Spend 20 minutes learning about a country, culture, or city you know almost nothing about.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "finance",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "Take-a-30-minute-walk-where-you-avoid-all-your-usual-routes-and-turn-a-different-way-each-time",
+    "template": "Take a 30 minute walk where you avoid all your usual routes and turn a different way each time.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "Draw-a-quick-map-of-your-life-over-the-last-5-years-and-mark-the-turning-points",
+    "template": "Draw a quick map of your life over the last 5 years and mark the turning points.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Choose-one-person-you-admire-and-study-their-story-for-20-minutes-taking-notes",
+    "template": "Choose one person you admire and study their story for 20 minutes, taking notes.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Spend-10-minutes-practicing-your-posture-and-walk-around-like-the-confident-version-of-you",
+    "template": "Spend 10 minutes practicing your posture and walk around like the confident version of you.",
+    "slots": [],
+    "size": "micro",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Go-to-a-live-event-you-find-on-short-notice-such-as-a-small-show-talk-or-open-mic",
+    "template": "Go to a live event you find on short notice, such as a small show, talk, or open mic.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "Ask-person-what-they-think-your-life-will-look-like-in-5-years-and-write-their-answer-down",
+    "template": "Ask [person] what they think your life will look like in 5 years and write their answer down.",
+    "slots": [
+      "person"
+    ],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Stand-outside-your-home-and-look-at-it-like-a-stranger-noticing-all-the-details-for-5-minutes",
+    "template": "Stand outside your home and look at it like a stranger, noticing all the details for 5 minutes.",
+    "slots": [],
+    "size": "micro",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "home_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "Spend-15-minutes-reviewing-your-recent-photos-and-delete-any-that-no-longer-feel-like-you",
+    "template": "Spend 15 minutes reviewing your recent photos and delete any that no longer feel like you.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Write-a-one-page-story-about-a-version-of-you-who-already-solved-your-biggest-current-problem",
+    "template": "Write a one page story about a version of you who already solved your biggest current problem.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Do-a-20-minute-home-workout-video-you-find-online-completing-it-all-the-way-through",
+    "template": "Do a 20 minute home workout video you find online, completing it all the way through.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "home_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Spend-10-minutes-talking-out-loud-about-your-week-as-if-you-are-on-a-podcast",
+    "template": "Spend 10 minutes talking out loud about your week as if you are on a podcast.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Buy-or-bring-a-flower-and-leave-it-in-a-public-place-with-a-kind-note-attached",
+    "template": "Buy or bring a flower and leave it in a public place with a kind note attached.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "errand",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "Take-a-40-minute-walk-where-you-intentionally-speed-up-on-hills-and-slow-down-on-flat-parts",
+    "template": "Take a 40 minute walk where you intentionally speed up on hills and slow down on flat parts.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "strength"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "Spend-25-minutes-planning-a-mini-adventure-you-could-do-within-2-hours-of-where-you-live",
+    "template": "Spend 25 minutes planning a mini adventure you could do within 2 hours of where you live.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "finance",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Write-down-10-limiting-beliefs-you-have-and-one-sentence-arguing-against-each",
+    "template": "Write down 10 limiting beliefs you have and one sentence arguing against each.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "reflection",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Choose-a-room-and-remove-five-items-you-no-longer-need-then-put-them-in-a-donation-bag",
+    "template": "Choose a room and remove five items you no longer need, then put them in a donation bag.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Go-sit-somewhere-you-have-never-sat-before-in-your-own-city-and-stay-for-15-minutes",
+    "template": "Go sit somewhere you have never sat before in your own city and stay for 15 minutes.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "Ask-person-to-recommend-a-book-movie-or-album-and-commit-to-trying-it-this-month",
+    "template": "Ask [person] to recommend a book, movie, or album and commit to trying it this month.",
+    "slots": [
+      "person"
+    ],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "Do-3-rounds-of-30-seconds-fast-walking-or-jogging-30-seconds-rest",
+    "template": "Do 3 rounds of 30 seconds fast walking or jogging, 30 seconds rest.",
+    "slots": [],
+    "size": "micro",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "strength"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Write-a-short-message-to-person-appreciating-something-specific-they-did-for-you",
+    "template": "Write a short message to [person] appreciating something specific they did for you.",
+    "slots": [
+      "person"
+    ],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Spend-20-minutes-designing-your-perfect-slow-morning-in-writing-or-sketching",
+    "template": "Spend 20 minutes designing your perfect slow morning in writing or sketching.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "morning",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Take-15-minutes-to-stand-or-sit-with-a-straight-back-imagining-a-string-lifting-your-head-up",
+    "template": "Take 15 minutes to stand or sit with a straight back, imagining a string lifting your head up.",
+    "slots": [],
+    "size": "micro",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Spend-25-minutes-researching-one-habit-you-want-to-build-and-the-science-behind-it",
+    "template": "Spend 25 minutes researching one habit you want to build and the science behind it.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "finance",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Walk-to-a-nearby-store-buy-one-healthy-item-and-eat-or-drink-it-mindfully",
+    "template": "Walk to a nearby store, buy one healthy item, and eat or drink it mindfully.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Sit-on-public-transport-and-deliberately-make-eye-contact-and-smile-at-three-people",
+    "template": "Sit on public transport and deliberately make eye contact and smile at three people.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "Write-a-letter-forgiving-yourself-for-something-in-your-past-then-keep-or-discard-it",
+    "template": "Write a letter forgiving yourself for something in your past, then keep or discard it.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "reflection",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Spend-15-minutes-standing-or-walking-barefoot-on-grass-or-ground-if-possible",
+    "template": "Spend 15 minutes standing or walking barefoot on grass or ground if possible.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "public_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Choose-a-building-in-your-neighborhood-and-imagine-the-lives-of-three-people-who-might-live-there",
+    "template": "Choose a building in your neighborhood and imagine the lives of three people who might live there.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "small_group",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Call-person-and-tell-them-one-memory-with-them-that-still-makes-you-smile",
+    "template": "Call [person] and tell them one memory with them that still makes you smile.",
+    "slots": [
+      "person"
+    ],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Take-a-20-minute-walk-where-you-leave-your-headphones-at-home-and-listen-to-your-thoughts",
+    "template": "Take a 20 minute walk where you leave your headphones at home and listen to your thoughts.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Spend-10-minutes-choosing-an-outfit-for-tomorrow-that-supports-the-version-of-you-you-want-to-be",
+    "template": "Spend 10 minutes choosing an outfit for tomorrow that supports the version of you you want to be.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "errand",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Find-a-local-viewpoint-rooftop-or-bridge-and-look-over-your-city-for-10-minutes",
+    "template": "Find a local viewpoint, rooftop, or bridge and look over your city for 10 minutes.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Write-down-30-things-you-have-already-survived-or-overcome",
+    "template": "Write down 30 things you have already survived or overcome.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "reflection",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Do-a-quick-workout-circuit-of-squats-push-ups-and-jumping-jacks-for-a-total-of-10-minutes",
+    "template": "Do a quick workout circuit of squats, push ups, and jumping jacks for a total of 10 minutes.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "strength",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "challenge",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Spend-30-minutes-exploring-a-store-you-never-go-into-and-notice-what-kinds-of-people-shop-there",
+    "template": "Spend 30 minutes exploring a store you never go into and notice what kinds of people shop there.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "luck",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "errand",
+    "socialIntensity": "small_group",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "Write-a-one-page-scene-where-your-life-is-a-movie-and-today-is-the-turning-point",
+    "template": "Write a one page scene where your life is a movie and today is the turning point.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Sit-somewhere-outdoors-and-list-25-things-you-can-see-hear-smell-or-feel",
+    "template": "Sit somewhere outdoors and list 25 things you can see, hear, smell, or feel.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Ask-person-for-honest-feedback-on-one-habit-or-pattern-you-have-and-just-listen",
+    "template": "Ask [person] for honest feedback on one habit or pattern you have and just listen.",
+    "slots": [
+      "person"
+    ],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Take-a-15-minute-walk-where-you-say-out-loud-one-thing-you-are-grateful-for-every-minute",
+    "template": "Take a 15 minute walk where you say out loud one thing you are grateful for every minute.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Spend-45-minutes-going-somewhere-new-in-your-city-by-foot-bus-or-bike-and-back",
+    "template": "Spend 45 minutes going somewhere new in your city by foot, bus, or bike and back.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "finance",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "Do-a-20-minute-tidy-of-all-visible-surfaces-in-one-room-so-it-feels-lighter",
+    "template": "Do a 20 minute tidy of all visible surfaces in one room so it feels lighter.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Sit-alone-in-a-restaurant-or-café-and-order-something-small-staying-for-at-least-25-minutes",
+    "template": "Sit alone in a restaurant or café and order something small, staying for at least 25 minutes.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "exploration",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "moderate",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "Write-out-your-ideal-day-hour-by-hour-from-waking-up-to-going-to-sleep",
+    "template": "Write out your ideal day hour by hour from waking up to going to sleep.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Call-person-and-ask-them-what-their-current-dream-or-goal-is-then-encourage-them",
+    "template": "Call [person] and ask them what their current dream or goal is, then encourage them.",
+    "slots": [
+      "person"
+    ],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Spend-30-minutes-without-screens-doing-only-analog-activities-like-reading-or-drawing",
+    "template": "Spend 30 minutes without screens, doing only analog activities like reading or drawing.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Go-outside-for-10-minutes-and-intentionally-say-hi-to-at-least-three-people",
+    "template": "Go outside for 10 minutes and intentionally say hi to at least three people.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "social",
+    "socialIntensity": "small_group",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "Write-10-affirmations-that-actually-sound-like-you-and-feel-believable",
+    "template": "Write 10 affirmations that actually sound like you and feel believable.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Spend-25-minutes-reorganizing-or-customizing-your-digital-workspace-or-home-screen",
+    "template": "Spend 25 minutes reorganizing or customizing your digital workspace or home screen.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "finance",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "home_indoor",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Walk-a-full-loop-around-your-block-or-building-three-times-in-a-row",
+    "template": "Walk a full loop around your block or building three times in a row.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Spend-20-minutes-creating-a-moodboard-for-the-next-season-of-your-life-using-images-or-sketches",
+    "template": "Spend 20 minutes creating a moodboard for the next season of your life using images or sketches.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "creative",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Ask-person-to-share-a-lesson-they-learned-the-hard-way-and-write-it-down",
+    "template": "Ask [person] to share a lesson they learned the hard way and write it down.",
+    "slots": [
+      "person"
+    ],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Do-a-12-minute-stair-or-hill-session-where-you-go-up-strong-and-walk-down-to-recover",
+    "template": "Do a 12 minute stair or hill session where you go up strong and walk down to recover.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "strength"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Spend-15-minutes-rewriting-one-story-you-tell-yourself-into-a-kinder-more-accurate-version",
+    "template": "Spend 15 minutes rewriting one story you tell yourself into a kinder, more accurate version.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "self_care",
+    "socialIntensity": "solo",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Sit-somewhere-in-nature-and-count-100-things-you-can-see-that-are-not-man-made",
+    "template": "Sit somewhere in nature and count 100 things you can see that are not man-made.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "outdoor_nature",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Take-a-photo-walk-for-25-minutes-where-you-only-photograph-small-unnoticed-details",
+    "template": "Take a photo walk for 25 minutes where you only photograph small unnoticed details.",
+    "slots": [],
+    "size": "medium",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "luck"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "public_indoor",
+    "costLevel": "cheap",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Go-to-a-shop-and-ask-someone-working-there-how-their-day-is-going-and-really-listen",
+    "template": "Go to a shop and ask someone working there how their day is going and really listen.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "social",
+    "socialIntensity": "strangers_required",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "bold"
+  },
+  {
+    "id": "Spend-20-minutes-doing-a-gentle-mobility-routine-for-your-neck-shoulders-hips-and-ankles",
+    "template": "Spend 20 minutes doing a gentle mobility routine for your neck, shoulders, hips, and ankles.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "strength"
+    ],
+    "category": "finance",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Write-a-short-script-for-a-60-second-scene-about-topic-and-act-it-out-by-yourself",
+    "template": "Write a short script for a 60 second scene about [topic] and act it out by yourself.",
+    "slots": [
+      "topic"
+    ],
+    "size": "medium",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "charisma"
+    ],
+    "category": "creative",
+    "socialIntensity": "solo",
+    "energyLevel": "medium",
+    "duration": "medium_15_30",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "Take-a-10-minute-walk-in-the-rain-snow-or-less-than-perfect-weather-safely-dressed-for-it",
+    "template": "Take a 10 minute walk in the rain, snow, or less-than-perfect weather, safely dressed for it.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_city",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Spend-30-minutes-mapping-out-a-budget-or-money-plan-that-feels-realistic-for-the-next-month",
+    "template": "Spend 30 minutes mapping out a budget or money plan that feels realistic for the next month.",
+    "slots": [],
+    "size": "big",
+    "primaryStat": "intelligence",
+    "secondaryStats": [
+      "resilience"
+    ],
+    "category": "finance",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "high",
+    "duration": "long_30_60",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "stretch"
+  },
+  {
+    "id": "Ask-person-what-they-would-do-if-they-had-a-free-day-with-no-obligations-and-no-phone",
+    "template": "Ask [person] what they would do if they had a free day with no obligations and no phone.",
+    "slots": [
+      "person"
+    ],
+    "size": "small",
+    "primaryStat": "charisma",
+    "secondaryStats": [
+      "intelligence"
+    ],
+    "category": "social",
+    "socialIntensity": "one_on_one",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Do-a-5-minute-sprint-of-chores-then-rest-then-another-5-minute-sprint",
+    "template": "Do a 5 minute sprint of chores, then rest, then another 5 minute sprint.",
+    "slots": [],
+    "size": "micro",
+    "primaryStat": "stamina",
+    "secondaryStats": [
+      "strength"
+    ],
+    "category": "self_care",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "flexible",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  },
+  {
+    "id": "Walk-to-a-body-of-water-such-as-a-river-lake-fountain-or-ocean-and-watch-it-for-10-minutes",
+    "template": "Walk to a body of water such as a river, lake, fountain, or ocean and watch it for 10 minutes.",
+    "slots": [],
+    "size": "small",
+    "primaryStat": "resilience",
+    "secondaryStats": [
+      "stamina"
+    ],
+    "category": "exploration",
+    "socialIntensity": "strangers_optional",
+    "energyLevel": "low",
+    "duration": "short_5_15",
+    "locationType": "outdoor_nature",
+    "costLevel": "free",
+    "timeOfDay": "any",
+    "comfortZone": "easy"
+  }
+]

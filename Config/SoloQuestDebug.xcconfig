@@ -1,0 +1,8 @@
+// Values for your own services live in Config/Secrets.xcconfig (git-ignored).
+// Copy Config/Secrets.xcconfig.example to get started. Any value left empty turns that service off.
+REVENUE_CAT_API_KEY =
+CLERK_PUBLISHABLE_KEY =
+POSTHOG_API_KEY =
+CLOUDKIT_CONTAINER_IDENTIFIER =
+
+#include? "Secrets.xcconfig"
